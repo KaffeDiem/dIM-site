@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>EmailHelper Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/EmailHelper" class="dashAnchor"></a>
+    <a title="EmailHelper Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (81% documented)</p>
+        <div class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </div>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" alt=""/>
+        EmailHelper Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/AppDelegate.html">AppDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChatBrain.html">ChatBrain</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChatBrain/queuedMessage.html">– queuedMessage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ConversationEntity.html">ConversationEntity</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CryptoHandler.html">CryptoHandler</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/EmailHelper.html">EmailHelper</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MessageEntity.html">MessageEntity</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SceneDelegate.html">SceneDelegate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Global%20Variables.html">Global Variables</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Global%20Variables.html#/s:13bluetoothChat18enableMessageQueueSbvp">enableMessageQueue</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global%20Variables.html#/s:13bluetoothChat15useDSRAlgorithmSbvp">useDSRAlgorithm</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/Status.html">Status</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/Color.html">Color</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIApplication.html">UIApplication</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/AboutView.html">AboutView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Bubble.html">Bubble</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ChatView.html">ChatView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ConnectionView.html">ConnectionView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ConnectivityView.html">ConnectivityView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Conversation.html">Conversation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Device.html">Device</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/HomeView.html">HomeView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/LocalMessage.html">LocalMessage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Message.html">Message</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/MessageBubble.html">MessageBubble</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/MessageStatus.html">MessageStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/QRView.html">QRView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ReadToggle.html">ReadToggle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Service.html">Service</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/SetUpView.html">SetUpView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/SettingsView.html">SettingsView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/SupportView.html">SupportView</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>EmailHelper</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">class</span> <span class="kt">EmailHelper</span> <span class="p">:</span> <span class="kt">NSObject</span><span class="p">,</span> <span class="kt">MFMailComposeViewControllerDelegate</span></code></pre>
+
+                </div>
+              </div>
+            <p>An email helper class which allows us to send emails in the support section of
+the settings view.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13bluetoothChat11EmailHelperC6sharedACvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/shared" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13bluetoothChat11EmailHelperC6sharedACvpZ">shared</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The EmailHelper static object.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">shared</span><span class="p">:</span> <span class="kt">EmailHelper</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13bluetoothChat11EmailHelperC04sendC07subject4body2toSbSS_S2StF"></a>
+                    <a name="//apple_ref/swift/Method/sendEmail(subject:body:to:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13bluetoothChat11EmailHelperC04sendC07subject4body2toSbSS_S2StF">sendEmail(subject:<wbr>body:<wbr>to:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Send an email by using the built in email app in iOS.</p>
+
+<p>Should show a pop-up in the future if the default mail has not been set.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">sendEmail</span><span class="p">(</span><span class="nv">subject</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">body</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">to</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>subject</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The subject field for the email.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>body</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The text in the body of the email.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>to</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The receiving email address.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A boolean confirming that a default email has been set up.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@bluetoothChat@objc(cs)EmailHelper(im)mailComposeController:didFinishWithResult:error:"></a>
+                    <a name="//apple_ref/swift/Method/mailComposeController(_:didFinishWith:error:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@bluetoothChat@objc(cs)EmailHelper(im)mailComposeController:didFinishWithResult:error:">mailComposeController(_:<wbr>didFinishWith:<wbr>error:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">mailComposeController</span><span class="p">(</span><span class="n">_</span> <span class="nv">controller</span><span class="p">:</span> <span class="kt">MFMailComposeViewController</span><span class="p">,</span> <span class="n">didFinishWith</span> <span class="nv">result</span><span class="p">:</span> <span class="kt">MFMailComposeResult</span><span class="p">,</span> <span class="nv">error</span><span class="p">:</span> <span class="kt">Error</span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13bluetoothChat11EmailHelperC21getRootViewControllerSo06UIViewH0CSgyFZ"></a>
+                    <a name="//apple_ref/swift/Method/getRootViewController()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13bluetoothChat11EmailHelperC21getRootViewControllerSo06UIViewH0CSgyFZ">getRootViewController()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">getRootViewController</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">UIViewController</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2021 <a class="link" href="" target="_blank" rel="external noopener"></a>. All rights reserved. (Last updated: 2021-12-10)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.1</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</html>

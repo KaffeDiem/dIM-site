@@ -1,0 +1,2639 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ChatBrain Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/ChatBrain" class="dashAnchor"></a>
+    <a title="ChatBrain Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (81% documented)</p>
+        <div class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </div>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" alt=""/>
+        ChatBrain Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/AppDelegate.html">AppDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChatBrain.html">ChatBrain</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChatBrain/queuedMessage.html">– queuedMessage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ConversationEntity.html">ConversationEntity</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CryptoHandler.html">CryptoHandler</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/EmailHelper.html">EmailHelper</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MessageEntity.html">MessageEntity</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SceneDelegate.html">SceneDelegate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Global%20Variables.html">Global Variables</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Global%20Variables.html#/s:13bluetoothChat18enableMessageQueueSbvp">enableMessageQueue</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global%20Variables.html#/s:13bluetoothChat15useDSRAlgorithmSbvp">useDSRAlgorithm</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/Status.html">Status</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/Color.html">Color</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIApplication.html">UIApplication</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/AboutView.html">AboutView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Bubble.html">Bubble</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ChatView.html">ChatView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ConnectionView.html">ConnectionView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ConnectivityView.html">ConnectivityView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Conversation.html">Conversation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Device.html">Device</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/HomeView.html">HomeView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/LocalMessage.html">LocalMessage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Message.html">Message</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/MessageBubble.html">MessageBubble</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/MessageStatus.html">MessageStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/QRView.html">QRView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ReadToggle.html">ReadToggle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Service.html">Service</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/SetUpView.html">SetUpView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/SettingsView.html">SettingsView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/SupportView.html">SupportView</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>ChatBrain</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">class</span> <span class="kt">ChatBrain</span> <span class="p">:</span> <span class="kt">NSObject</span><span class="p">,</span> <span class="kt">ObservableObject</span><span class="p">,</span> <span class="kt">CBCentralManagerDelegate</span><span class="p">,</span> <span class="kt">CBPeripheralManagerDelegate</span><span class="p">,</span> <span class="kt">CBPeripheralDelegate</span></code></pre>
+
+                </div>
+              </div>
+            <p>The Bluetooth Manager handles all searching for, creating connection to
+and sending/receiving messages to/from other Bluetooth devices.</p>
+
+<p>This class handles almost all the logic in the app and is passed around
+to the different views such that they all have access to the same Bluetooth
+objects as well as conversations. When the app is launched all the information
+is stored in memory and written to the persistent storage as needed.</p>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    It conforms to a variety of delegates which is used for callback functions from the Apple APIs.
+
+</div><div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    In code the ChatBrain has been divided into files for seperation and isolation of features.
+
+</div>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13bluetoothChat0B5BrainC7contextSo22NSManagedObjectContextCvp"></a>
+                    <a name="//apple_ref/swift/Property/context" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13bluetoothChat0B5BrainC7contextSo22NSManagedObjectContextCvp">context</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Context for CoreData storage</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">context</span><span class="p">:</span> <span class="kt">NSManagedObjectContext</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13bluetoothChat0B5BrainC13routedCounterSivp"></a>
+                    <a name="//apple_ref/swift/Property/routedCounter" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13bluetoothChat0B5BrainC13routedCounterSivp">routedCounter</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A simple counter to show amount of relayed messages this session.
+It is reset when the app is force-closed or the device is restarted.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@Published</span>
+<span class="k">var</span> <span class="nv">routedCounter</span><span class="p">:</span> <span class="kt">Int</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13bluetoothChat0B5BrainC12messageQueueSayAC13queuedMessageVGvp"></a>
+                    <a name="//apple_ref/swift/Property/messageQueue" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13bluetoothChat0B5BrainC12messageQueueSayAC13queuedMessageVGvp">messageQueue</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Holds an array of messages to be delivered at a later point.
+Used for the queue functionality.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@Published</span>
+<span class="k">var</span> <span class="nv">messageQueue</span><span class="p">:</span> <span class="p">[</span><span class="n"><a href="../Classes/ChatBrain/queuedMessage.html">queuedMessage</a></span><span class="p">]</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13bluetoothChat0B5BrainC17discoveredDevicesSayAA6DeviceVGvp"></a>
+                    <a name="//apple_ref/swift/Property/discoveredDevices" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13bluetoothChat0B5BrainC17discoveredDevicesSayAA6DeviceVGvp">discoveredDevices</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Holds a reference to all devices discovered. If no reference
+is held then the Bluetooth connection may be dropped.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@Published</span>
+<span class="k">var</span> <span class="nv">discoveredDevices</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Structs/Device.html">Device</a></span><span class="p">]</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13bluetoothChat0B5BrainC23connectedCharateristicsSaySo16CBCharacteristicCGvp"></a>
+                    <a name="//apple_ref/swift/Property/connectedCharateristics" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13bluetoothChat0B5BrainC23connectedCharateristicsSaySo16CBCharacteristicCGvp">connectedCharateristics</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Holds the connected characteristics. This is only used for the chat
+functionality for now.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">connectedCharateristics</span><span class="p">:</span> <span class="p">[</span><span class="kt">CBCharacteristic</span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13bluetoothChat0B5BrainC14centralManagerSo09CBCentralE0CSgvp"></a>
+                    <a name="//apple_ref/swift/Property/centralManager" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13bluetoothChat0B5BrainC14centralManagerSo09CBCentralE0CSgvp">centralManager</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The centralManager acts as our Bluetooth server and receives messages
+sent by clients to the server.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">centralManager</span><span class="p">:</span> <span class="kt">CBCentralManager</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13bluetoothChat0B5BrainC17peripheralManagerSo012CBPeripheralE0CSgvp"></a>
+                    <a name="//apple_ref/swift/Property/peripheralManager" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13bluetoothChat0B5BrainC17peripheralManagerSo012CBPeripheralE0CSgvp">peripheralManager</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The peripheralManager acts as our Bluetooth clients and establishes
+connections to other BT servers. It also sends messages.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">peripheralManager</span><span class="p">:</span> <span class="kt">CBPeripheralManager</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13bluetoothChat0B5BrainC14characteristicSo23CBMutableCharacteristicCSgvp"></a>
+                    <a name="//apple_ref/swift/Property/characteristic" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13bluetoothChat0B5BrainC14characteristicSo23CBMutableCharacteristicCSgvp">characteristic</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The characteristic which defines our chat functionality for the
+Bluetooth API.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">characteristic</span><span class="p">:</span> <span class="kt">CBMutableCharacteristic</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13bluetoothChat0B5BrainC12seenMessagesSays5Int32VGvp"></a>
+                    <a name="//apple_ref/swift/Property/seenMessages" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13bluetoothChat0B5BrainC12seenMessagesSays5Int32VGvp">seenMessages</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A list which holds message IDs which we have seen before.
+This prevents looping them in the network for ages.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">seenMessages</span><span class="p">:</span> <span class="p">[</span><span class="kt">Int32</span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13bluetoothChat0B5BrainC18peripheralMessagesSDySSSay10Foundation4DateVGGvp"></a>
+                    <a name="//apple_ref/swift/Property/peripheralMessages" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13bluetoothChat0B5BrainC18peripheralMessagesSDySSSay10Foundation4DateVGGvp">peripheralMessages</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A dictionary which stores how many messages we have received from a connected peripheral.
+It is cleaned from time to time as well.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">peripheralMessages</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="p">[</span><span class="kt">Date</span><span class="p">]]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13bluetoothChat0B5BrainC17senderOfMessageIDSDys5Int32VSSGvp"></a>
+                    <a name="//apple_ref/swift/Property/senderOfMessageID" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13bluetoothChat0B5BrainC17senderOfMessageIDSDys5Int32VSSGvp">senderOfMessageID</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A dictionary which holds the ids of messages relayed and the corresponding sender
+of said messages. This is used for DSR.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">senderOfMessageID</span><span class="p">:</span> <span class="p">[</span><span class="kt">Int32</span> <span class="p">:</span> <span class="kt">String</span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13bluetoothChat0B5BrainC13seenCBCentralSaySo0E0CGvp"></a>
+                    <a name="//apple_ref/swift/Property/seenCBCentral" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13bluetoothChat0B5BrainC13seenCBCentralSaySo0E0CGvp">seenCBCentral</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Seen CBCentrals / This is used for DSR algorithm.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">seenCBCentral</span><span class="p">:</span> <span class="p">[</span><span class="kt">CBCentral</span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13bluetoothChat0B5BrainC7contextACSo22NSManagedObjectContextC_tcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(context:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13bluetoothChat0B5BrainC7contextACSo22NSManagedObjectContextC_tcfc">init(context:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The initialiser for the ChatBrain.
+Sets up the <code><a href="../Classes/ChatBrain.html#/s:13bluetoothChat0B5BrainC14centralManagerSo09CBCentralE0CSgvp">centralManager</a></code> and the <code><a href="../Classes/ChatBrain.html#/s:13bluetoothChat0B5BrainC17peripheralManagerSo012CBPeripheralE0CSgvp">peripheralManager</a></code>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="nf">init</span><span class="p">(</span><span class="nv">context</span><span class="p">:</span> <span class="kt">NSManagedObjectContext</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>context</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The context for persistent storage to <code>CoreData</code></p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13bluetoothChat0B5BrainC17cleanUpPeripheralyySo12CBPeripheralCF"></a>
+                    <a name="//apple_ref/swift/Method/cleanUpPeripheral(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13bluetoothChat0B5BrainC17cleanUpPeripheralyySo12CBPeripheralCF">cleanUpPeripheral(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Remove a device from discoveredDevices and drop connection to it.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">cleanUpPeripheral</span><span class="p">(</span><span class="n">_</span> <span class="nv">peripheral</span><span class="p">:</span> <span class="kt">CBPeripheral</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>peripheral</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The peripheral to remove and drop connection to.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/CentralManager%20callback%20functions.%20Handles%20the%20server%20side%20of%20Bluetooth."></a>
+                <a name="//apple_ref/swift/Section/CentralManager callback functions. Handles the server side of Bluetooth." class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/CentralManager%20callback%20functions.%20Handles%20the%20server%20side%20of%20Bluetooth."></a>
+                  <h3 class="section-name"><span>CentralManager callback functions. Handles the server side of Bluetooth.</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@bluetoothChat@objc(cs)ChatBrain(im)centralManagerDidUpdateState:"></a>
+                    <a name="//apple_ref/swift/Method/centralManagerDidUpdateState(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@bluetoothChat@objc(cs)ChatBrain(im)centralManagerDidUpdateState:">centralManagerDidUpdateState(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Callback function which gets the Bluetooth state of this device.</p>
+
+<p>If Bluetooth is turned on and functions correctly we will start scanning
+for peripherals.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">centralManagerDidUpdateState</span><span class="p">(</span><span class="n">_</span> <span class="nv">central</span><span class="p">:</span> <span class="kt">CBCentralManager</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>central</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The Central Manager which has its state updated. Given by Apple APIs.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@bluetoothChat@objc(cs)ChatBrain(im)centralManager:didDiscoverPeripheral:advertisementData:RSSI:"></a>
+                    <a name="//apple_ref/swift/Method/centralManager(_:didDiscover:advertisementData:rssi:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@bluetoothChat@objc(cs)ChatBrain(im)centralManager:didDiscoverPeripheral:advertisementData:RSSI:">centralManager(_:<wbr>didDiscover:<wbr>advertisementData:<wbr>rssi:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Callback function which is activated if a peripheral is discovered.</p>
+
+<p>This means that if this function is called a new device is nearby and ready
+to broadcast messages for us.</p>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    Converts the peripheral to a Device() and stores it in memory. Otherwise the connection would be dropped.
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">centralManager</span><span class="p">(</span><span class="n">_</span> <span class="nv">central</span><span class="p">:</span> <span class="kt">CBCentralManager</span><span class="p">,</span> <span class="n">didDiscover</span> <span class="nv">peripheral</span><span class="p">:</span> <span class="kt">CBPeripheral</span><span class="p">,</span> <span class="nv">advertisementData</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">],</span> <span class="n">rssi</span> <span class="kt">RSSI</span><span class="p">:</span> <span class="kt">NSNumber</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>central</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The central manager which discovers the peripheral.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>peripheral</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The peripheral which is discovered.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>advertisementData</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Holds information such as the name of the peripheral. See more in Apples docs.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>RSSI</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The signal strength to the peripheral device.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@bluetoothChat@objc(cs)ChatBrain(im)centralManager:didConnectPeripheral:"></a>
+                    <a name="//apple_ref/swift/Method/centralManager(_:didConnect:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@bluetoothChat@objc(cs)ChatBrain(im)centralManager:didConnectPeripheral:">centralManager(_:<wbr>didConnect:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Callback function if the central manager connected successfully to the peripheral.</p>
+
+<p>Afterwards we discover what services it has to offer, and checks that it
+supports the dIM identifier. Otherwise it could be all other Bluetooth devices.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">centralManager</span><span class="p">(</span><span class="n">_</span> <span class="nv">central</span><span class="p">:</span> <span class="kt">CBCentralManager</span><span class="p">,</span> <span class="n">didConnect</span> <span class="nv">peripheral</span><span class="p">:</span> <span class="kt">CBPeripheral</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>central</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The central manager which connects to the peripheral.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>peripheral</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The peripheral which we connected successfully to.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@bluetoothChat@objc(cs)ChatBrain(im)centralManager:didFailToConnectPeripheral:error:"></a>
+                    <a name="//apple_ref/swift/Method/centralManager(_:didFailToConnect:error:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@bluetoothChat@objc(cs)ChatBrain(im)centralManager:didFailToConnectPeripheral:error:">centralManager(_:<wbr>didFailToConnect:<wbr>error:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Callback function if we fail to connect to some peripheral.</p>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    No error handling has been implemented.
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">centralManager</span><span class="p">(</span><span class="n">_</span> <span class="nv">central</span><span class="p">:</span> <span class="kt">CBCentralManager</span><span class="p">,</span> <span class="n">didFailToConnect</span> <span class="nv">peripheral</span><span class="p">:</span> <span class="kt">CBPeripheral</span><span class="p">,</span> <span class="nv">error</span><span class="p">:</span> <span class="kt">Error</span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>central</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The central manager which fails to connect.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>peripheral</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The peripheral which we fail to connect to.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>error</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The error description of the failed connection.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@bluetoothChat@objc(cs)ChatBrain(im)centralManager:didDisconnectPeripheral:error:"></a>
+                    <a name="//apple_ref/swift/Method/centralManager(_:didDisconnectPeripheral:error:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@bluetoothChat@objc(cs)ChatBrain(im)centralManager:didDisconnectPeripheral:error:">centralManager(_:<wbr>didDisconnectPeripheral:<wbr>error:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Callback function called when we lose connection to a peripheral.</p>
+
+<p>This function cleans up the peripheral and removes it from memory.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">centralManager</span><span class="p">(</span><span class="n">_</span> <span class="nv">central</span><span class="p">:</span> <span class="kt">CBCentralManager</span><span class="p">,</span> <span class="n">didDisconnectPeripheral</span> <span class="nv">peripheral</span><span class="p">:</span> <span class="kt">CBPeripheral</span><span class="p">,</span> <span class="nv">error</span><span class="p">:</span> <span class="kt">Error</span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>central</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The central which loses its connection to a peripheral.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>peripheral</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The peripheral device which we lose connection to.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>error</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The error description of the lost connection. (out-of-range for example)</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@bluetoothChat@objc(cs)ChatBrain(im)peripheral:didReadRSSI:error:"></a>
+                    <a name="//apple_ref/swift/Method/peripheral(_:didReadRSSI:error:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@bluetoothChat@objc(cs)ChatBrain(im)peripheral:didReadRSSI:error:">peripheral(_:<wbr>didReadRSSI:<wbr>error:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Callback function whenever a peripheral updates its RSSI.</p>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    RSSI is the signal strength.
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">peripheral</span><span class="p">(</span><span class="n">_</span> <span class="nv">peripheral</span><span class="p">:</span> <span class="kt">CBPeripheral</span><span class="p">,</span> <span class="n">didReadRSSI</span> <span class="kt">RSSI</span><span class="p">:</span> <span class="kt">NSNumber</span><span class="p">,</span> <span class="nv">error</span><span class="p">:</span> <span class="kt">Error</span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>peripheral</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The peripheral which updates its RSSI.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>RSSI</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The new RSSI value for said peripheral.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>error</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The error description if there are any. Printed to console.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@bluetoothChat@objc(cs)ChatBrain(im)peripheral:didDiscoverServices:"></a>
+                    <a name="//apple_ref/swift/Method/peripheral(_:didDiscoverServices:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@bluetoothChat@objc(cs)ChatBrain(im)peripheral:didDiscoverServices:">peripheral(_:<wbr>didDiscoverServices:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Callback function if we discover the dIM UUID on a peripheral device.</p>
+
+<p>Afterwards we look for the specific characteristic which defines our
+chat functionality.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">peripheral</span><span class="p">(</span><span class="n">_</span> <span class="nv">peripheral</span><span class="p">:</span> <span class="kt">CBPeripheral</span><span class="p">,</span> <span class="n">didDiscoverServices</span> <span class="nv">error</span><span class="p">:</span> <span class="kt">Error</span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>peripheral</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The peripheral in which we discover a service.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>error</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The error description if there are any. Printed to the console.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@bluetoothChat@objc(cs)ChatBrain(im)peripheral:didDiscoverCharacteristicsForService:error:"></a>
+                    <a name="//apple_ref/swift/Method/peripheral(_:didDiscoverCharacteristicsFor:error:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@bluetoothChat@objc(cs)ChatBrain(im)peripheral:didDiscoverCharacteristicsForService:error:">peripheral(_:<wbr>didDiscoverCharacteristicsFor:<wbr>error:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Callback function if we discover the characteristic which defines the chat functionality.</p>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    This means that we are fully connected and ready to receive messages.
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">peripheral</span><span class="p">(</span><span class="n">_</span> <span class="nv">peripheral</span><span class="p">:</span> <span class="kt">CBPeripheral</span><span class="p">,</span> <span class="n">didDiscoverCharacteristicsFor</span> <span class="nv">service</span><span class="p">:</span> <span class="kt">CBService</span><span class="p">,</span> <span class="nv">error</span><span class="p">:</span> <span class="kt">Error</span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>peripheral</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The now fully connected peripheral.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>service</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The service which we have discovered, only chat functionality is provided.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>error</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The error description if there are any. Printed to the console.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@bluetoothChat@objc(cs)ChatBrain(im)peripheral:didUpdateNotificationStateForCharacteristic:error:"></a>
+                    <a name="//apple_ref/swift/Method/peripheral(_:didUpdateNotificationStateFor:error:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@bluetoothChat@objc(cs)ChatBrain(im)peripheral:didUpdateNotificationStateForCharacteristic:error:">peripheral(_:<wbr>didUpdateNotificationStateFor:<wbr>error:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Callback function which does error handling if we receive the wrong notifications.</p>
+
+<p>Notifications are new messages.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">peripheral</span><span class="p">(</span><span class="n">_</span> <span class="nv">peripheral</span><span class="p">:</span> <span class="kt">CBPeripheral</span><span class="p">,</span> <span class="n">didUpdateNotificationStateFor</span> <span class="nv">characteristic</span><span class="p">:</span> <span class="kt">CBCharacteristic</span><span class="p">,</span> <span class="nv">error</span><span class="p">:</span> <span class="kt">Error</span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>peripheral</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The peripheral which send the notification.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>characteristic</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The characteristic which it sends notification for (chat functionality).</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>error</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Error description if any. Printed to the console.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@bluetoothChat@objc(cs)ChatBrain(im)peripheral:didUpdateValueForCharacteristic:error:"></a>
+                    <a name="//apple_ref/swift/Method/peripheral(_:didUpdateValueFor:error:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@bluetoothChat@objc(cs)ChatBrain(im)peripheral:didUpdateValueForCharacteristic:error:">peripheral(_:<wbr>didUpdateValueFor:<wbr>error:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Callback function which is called whenever we receive a new message.</p>
+
+<p>Checks that we are not receiving too many messages from this particular device
+and that we are not getting DOS attacked.</p>
+
+<p>The message is then decoded from JSON and passed to our <code>receivedMessage.swift</code> file.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">peripheral</span><span class="p">(</span><span class="n">_</span> <span class="nv">peripheral</span><span class="p">:</span> <span class="kt">CBPeripheral</span><span class="p">,</span> <span class="n">didUpdateValueFor</span> <span class="nv">characteristic</span><span class="p">:</span> <span class="kt">CBCharacteristic</span><span class="p">,</span> <span class="nv">error</span><span class="p">:</span> <span class="kt">Error</span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>peripheral</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The peripheral which we receive a new message from.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>characteristic</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The chateristic which we receive a new message from.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>error</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Error description if there are any. Also printed to the console.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@bluetoothChat@objc(cs)ChatBrain(im)peripheral:didModifyServices:"></a>
+                    <a name="//apple_ref/swift/Method/peripheral(_:didModifyServices:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@bluetoothChat@objc(cs)ChatBrain(im)peripheral:didModifyServices:">peripheral(_:<wbr>didModifyServices:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Callback function if a peripheral modifies its services. This is not allowed
+and we therefore drop our connection to it.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">peripheral</span><span class="p">(</span><span class="n">_</span> <span class="nv">peripheral</span><span class="p">:</span> <span class="kt">CBPeripheral</span><span class="p">,</span> <span class="n">didModifyServices</span> <span class="nv">invalidatedServices</span><span class="p">:</span> <span class="p">[</span><span class="kt">CBService</span><span class="p">])</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>peripheral</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The peripheral modifying its services.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>invalidatedServices</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The service which it invalidates.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/PeripheralManager%20callback%20functions.%20Handles%20the%20client%20side%20of%20Bluetooth."></a>
+                <a name="//apple_ref/swift/Section/PeripheralManager callback functions. Handles the client side of Bluetooth." class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/PeripheralManager%20callback%20functions.%20Handles%20the%20client%20side%20of%20Bluetooth."></a>
+                  <h3 class="section-name"><span>PeripheralManager callback functions. Handles the client side of Bluetooth.</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13bluetoothChat0B5BrainC16startAdvertising17peripheralManagerySo012CBPeripheralG0C_tF"></a>
+                    <a name="//apple_ref/swift/Method/startAdvertising(peripheralManager:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13bluetoothChat0B5BrainC16startAdvertising17peripheralManagerySo012CBPeripheralG0C_tF">startAdvertising(peripheralManager:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Start advertisting that we are here to nearby Bluetooth central managers.
+This is a callback function and called automatically.</p>
+
+<p>We also set our devices name here.</p>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    The devices name is not avaiable when the app is backgrounded due to API restrictions.
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">startAdvertising</span><span class="p">(</span><span class="nv">peripheralManager</span><span class="p">:</span> <span class="kt">CBPeripheralManager</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>peripheralManager</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The peripheral manager to start advertising for.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@bluetoothChat@objc(cs)ChatBrain(im)peripheralManagerDidUpdateState:"></a>
+                    <a name="//apple_ref/swift/Method/peripheralManagerDidUpdateState(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@bluetoothChat@objc(cs)ChatBrain(im)peripheralManagerDidUpdateState:">peripheralManagerDidUpdateState(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Callback function which is called when the peripheral manager updates its state.</p>
+
+<p>This could be due to Bluetooth being turned off by the user.
+In the future we may notify the user that the wont be able to receive messages
+when they turned off Bluetooth.</p>
+
+<p>When the peripheral updates its state to <code>poweredOn</code> we add the Bluetooth functionality
+to it as a characteristic.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">peripheralManagerDidUpdateState</span><span class="p">(</span><span class="n">_</span> <span class="nv">peripheral</span><span class="p">:</span> <span class="kt">CBPeripheralManager</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>peripheral</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The peripheral which updates its state.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@bluetoothChat@objc(cs)ChatBrain(im)peripheralManager:central:didSubscribeToCharacteristic:"></a>
+                    <a name="//apple_ref/swift/Method/peripheralManager(_:central:didSubscribeTo:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@bluetoothChat@objc(cs)ChatBrain(im)peripheralManager:central:didSubscribeToCharacteristic:">peripheralManager(_:<wbr>central:<wbr>didSubscribeTo:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Called when a new central subscribes to our peripheral manager.
+This means that we have someone to send messages to other than ourselves.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">peripheralManager</span><span class="p">(</span><span class="n">_</span> <span class="nv">peripheral</span><span class="p">:</span> <span class="kt">CBPeripheralManager</span><span class="p">,</span> <span class="nv">central</span><span class="p">:</span> <span class="kt">CBCentral</span><span class="p">,</span> <span class="n">didSubscribeTo</span> <span class="nv">characteristic</span><span class="p">:</span> <span class="kt">CBCharacteristic</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>peripheral</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The peripheral which has a new subscription.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>central</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The central which subscribes to the peripheral.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>characteristic</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The characteristic which it subscribes to.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@bluetoothChat@objc(cs)ChatBrain(im)peripheralManager:central:didUnsubscribeFromCharacteristic:"></a>
+                    <a name="//apple_ref/swift/Method/peripheralManager(_:central:didUnsubscribeFrom:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@bluetoothChat@objc(cs)ChatBrain(im)peripheralManager:central:didUnsubscribeFromCharacteristic:">peripheralManager(_:<wbr>central:<wbr>didUnsubscribeFrom:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Callback function activated when a central unsubscribes from us.</p>
+
+<p>Nothing is done at the minute but error handling should be done in the
+future.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">peripheralManager</span><span class="p">(</span><span class="n">_</span> <span class="nv">peripheral</span><span class="p">:</span> <span class="kt">CBPeripheralManager</span><span class="p">,</span> <span class="nv">central</span><span class="p">:</span> <span class="kt">CBCentral</span><span class="p">,</span> <span class="n">didUnsubscribeFrom</span> <span class="nv">characteristic</span><span class="p">:</span> <span class="kt">CBCharacteristic</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>peripheral</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The peripheral which is unsubscribed from.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>central</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The central which unsubscribed from us.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>characteristic</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The characteristic (functionality) which the central unsubscribes from.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/DSR%20%28Dynamic%20Source%20Routing%29%20functionality"></a>
+                <a name="//apple_ref/swift/Section/DSR (Dynamic Source Routing) functionality" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/DSR%20%28Dynamic%20Source%20Routing%29%20functionality"></a>
+                  <h3 class="section-name"><span>DSR (Dynamic Source Routing) functionality</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13bluetoothChat0B5BrainC20addMessageToDSRTable9messageID0aI0ys5Int32V_SStF"></a>
+                    <a name="//apple_ref/swift/Method/addMessageToDSRTable(messageID:bluetoothID:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13bluetoothChat0B5BrainC20addMessageToDSRTable9messageID0aI0ys5Int32V_SStF">addMessageToDSRTable(messageID:<wbr>bluetoothID:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Add a message to the dicitionary when it is received.</p>
+
+<p>This is to ensure that we have knowledge of where a message came from
+to send back <code>ACK</code> messages the shortest route possible.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">addMessageToDSRTable</span><span class="p">(</span><span class="nv">messageID</span><span class="p">:</span> <span class="kt">Int32</span><span class="p">,</span> <span class="nv">bluetoothID</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>messageID</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The id of the message to keep track of.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>bluetoothID</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The id of the sender of the message to save.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13bluetoothChat0B5BrainC22checkMessageSeenBefore9messageIDSbs5Int32V_tF"></a>
+                    <a name="//apple_ref/swift/Method/checkMessageSeenBefore(messageID:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13bluetoothChat0B5BrainC22checkMessageSeenBefore9messageIDSbs5Int32V_tF">checkMessageSeenBefore(messageID:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Check if we have seen a message before. If we have not we will
+flood the network.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">checkMessageSeenBefore</span><span class="p">(</span><span class="nv">messageID</span><span class="p">:</span> <span class="kt">Int32</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>messageID</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The id of the message to check.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A boolean to confirm if we have seen the message before.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13bluetoothChat0B5BrainC18getSenderOfMessage9messageIDSSs5Int32V_tF"></a>
+                    <a name="//apple_ref/swift/Method/getSenderOfMessage(messageID:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13bluetoothChat0B5BrainC18getSenderOfMessage9messageIDSSs5Int32V_tF">getSenderOfMessage(messageID:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Get the sender of a message given a message id.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">getSenderOfMessage</span><span class="p">(</span><span class="nv">messageID</span><span class="p">:</span> <span class="kt">Int32</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>messageID</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The message id to check for.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The Bluetooth UUID as a string.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Message%20queue%20functionality."></a>
+                <a name="//apple_ref/swift/Section/Message queue functionality." class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Message%20queue%20functionality."></a>
+                  <h3 class="section-name"><span>Message queue functionality.</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13bluetoothChat0B5BrainC13queuedMessageV"></a>
+                    <a name="//apple_ref/swift/Struct/queuedMessage" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13bluetoothChat0B5BrainC13queuedMessageV">queuedMessage</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A message stored together with a date for queue.</p>
+
+                        <a href="../Classes/ChatBrain/queuedMessage.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">struct</span> <span class="n">queuedMessage</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13bluetoothChat0B5BrainC15messageQueueAddyyAA7MessageVF"></a>
+                    <a name="//apple_ref/swift/Method/messageQueueAdd(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13bluetoothChat0B5BrainC15messageQueueAddyyAA7MessageVF">messageQueueAdd(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Add a message to the message queue.</p>
+
+<p>This function is used to deliver messages over long distances.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">messageQueueAdd</span><span class="p">(</span><span class="n">_</span> <span class="nv">message</span><span class="p">:</span> <span class="kt"><a href="../Structs/Message.html">Message</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>message</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The message to add to the queue of messages.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13bluetoothChat0B5BrainC17checkMessageQueueyyF"></a>
+                    <a name="//apple_ref/swift/Method/checkMessageQueue()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13bluetoothChat0B5BrainC17checkMessageQueueyyF">checkMessageQueue()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Remove old messages from the message queue such that
+we do not deliver messages older than a set amount.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">checkMessageQueue</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13bluetoothChat0B5BrainC25messageQueueNewConnectionyySo9CBCentralCF"></a>
+                    <a name="//apple_ref/swift/Method/messageQueueNewConnection(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13bluetoothChat0B5BrainC25messageQueueNewConnectionyySo9CBCentralCF">messageQueueNewConnection(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Called when we establish a new connection to a central manager.
+This sends over all the queued messages but clean up first
+such that no old messages are sent.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">messageQueueNewConnection</span><span class="p">(</span><span class="n">_</span> <span class="nv">central</span><span class="p">:</span> <span class="kt">CBCentral</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>central</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The newly connected central device.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Relay%20messages%20functionality."></a>
+                <a name="//apple_ref/swift/Section/Relay messages functionality." class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Relay%20messages%20functionality."></a>
+                  <h3 class="section-name"><span>Relay messages functionality.</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13bluetoothChat0B5BrainC12relayMessageyyAA0E0VF"></a>
+                    <a name="//apple_ref/swift/Method/relayMessage(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13bluetoothChat0B5BrainC12relayMessageyyAA0E0VF">relayMessage(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Relay a message which we have received and is not for us.</p>
+
+<p>This function simply sends all received messages not for us to all
+connected servers (central managers).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">relayMessage</span><span class="p">(</span><span class="n">_</span> <span class="nv">message</span><span class="p">:</span> <span class="kt"><a href="../Structs/Message.html">Message</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>message</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The message to relay still in its encrypted format.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13bluetoothChat0B5BrainC12relayMessageyyAA0E0V_SStF"></a>
+                    <a name="//apple_ref/swift/Method/relayMessage(_:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13bluetoothChat0B5BrainC12relayMessageyyAA0E0V_SStF">relayMessage(_:<wbr>_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Relay message but to be used for <code>DSR</code> routing.
+Therefore we require a specific Bluetooth ID to send the send the message to.</p>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    This function is only used for <code>ACK</code> messages currently.
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">relayMessage</span><span class="p">(</span><span class="n">_</span> <span class="nv">message</span><span class="p">:</span> <span class="kt"><a href="../Structs/Message.html">Message</a></span><span class="p">,</span> <span class="n">_</span> <span class="nv">bluetoothID</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>message</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The message to send.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>bluetoothID</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The BluetoothID to send it to (a UUID as a string).</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Receiving%20messages."></a>
+                <a name="//apple_ref/swift/Section/Receiving messages." class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Receiving%20messages."></a>
+                  <h3 class="section-name"><span>Receiving messages.</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13bluetoothChat0B5BrainC15retrieveMessageyyAA0E0VF"></a>
+                    <a name="//apple_ref/swift/Method/retrieveMessage(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13bluetoothChat0B5BrainC15retrieveMessageyyAA0E0VF">retrieveMessage(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Retrieve a message from a sender and handle it accordingly.</p>
+
+<p>If the message is not for us we relay it to connected Bluetooth
+centrals. Otherwise, if it is for us, we start decrypting it and
+adding it to the correct conversation. Then we send an <code>ACK</code> message
+to confirm that we have received it.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">retrieveMessage</span><span class="p">(</span><span class="n">_</span> <span class="nv">messageEncrypted</span><span class="p">:</span> <span class="kt"><a href="../Structs/Message.html">Message</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>messageEncrypted</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The message that we have received. Then we determine if it is for us.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13bluetoothChat0B5BrainC12receivedRead7message12conversationSbAA7MessageV_AA18ConversationEntityCtF"></a>
+                    <a name="//apple_ref/swift/Method/receivedRead(message:conversation:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13bluetoothChat0B5BrainC12receivedRead7message12conversationSbAA7MessageV_AA18ConversationEntityCtF">receivedRead(message:<wbr>conversation:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Called if we have received a <code>READ</code> message type. This is to handle
+that type of messages correctly.</p>
+
+<p>Also confirms that the message is formatted correctly.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">receivedRead</span><span class="p">(</span><span class="nv">message</span><span class="p">:</span> <span class="kt"><a href="../Structs/Message.html">Message</a></span><span class="p">,</span> <span class="nv">conversation</span><span class="p">:</span> <span class="kt"><a href="../Classes/ConversationEntity.html">ConversationEntity</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>message</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code>READ</code> message that we have received.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>conversation</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The conversation in which the message is to be handled.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A boolean that confirms that the type of message is a <code>READ</code> type.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13bluetoothChat0B5BrainC11receivedAck7message12conversationSbAA7MessageV_AA18ConversationEntityCtF"></a>
+                    <a name="//apple_ref/swift/Method/receivedAck(message:conversation:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13bluetoothChat0B5BrainC11receivedAck7message12conversationSbAA7MessageV_AA18ConversationEntityCtF">receivedAck(message:<wbr>conversation:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Handles <code>ACK</code> message types. Also confirms that the message is correctly
+formatted and updates the conversation.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">receivedAck</span><span class="p">(</span><span class="nv">message</span><span class="p">:</span> <span class="kt"><a href="../Structs/Message.html">Message</a></span><span class="p">,</span> <span class="nv">conversation</span><span class="p">:</span> <span class="kt"><a href="../Classes/ConversationEntity.html">ConversationEntity</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>message</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code>ACK</code> message we have received.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>conversation</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The conversation in which it is handled.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A boolean confirming that it is or is not an <code>ACK</code> message.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Helper%20functions"></a>
+                <a name="//apple_ref/swift/Section/Helper functions" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Helper%20functions"></a>
+                  <h3 class="section-name"><span>Helper functions</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13bluetoothChat0B5BrainC31decryptRetrievedMessageToString7message12conversationSSSgAA0F0V_AA18ConversationEntityCtF"></a>
+                    <a name="//apple_ref/swift/Method/decryptRetrievedMessageToString(message:conversation:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13bluetoothChat0B5BrainC31decryptRetrievedMessageToString7message12conversationSSSgAA0F0V_AA18ConversationEntityCtF">decryptRetrievedMessageToString(message:<wbr>conversation:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A helper function to decrypt a message to a string.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">decryptRetrievedMessageToString</span><span class="p">(</span><span class="nv">message</span><span class="p">:</span> <span class="kt"><a href="../Structs/Message.html">Message</a></span><span class="p">,</span> <span class="nv">conversation</span><span class="p">:</span> <span class="kt"><a href="../Classes/ConversationEntity.html">ConversationEntity</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>message</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The message to decrypt.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>conversation</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The conversation to decrypt the message for.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The decrypted content of the message or nil if it cannot be decrypted.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13bluetoothChat0B5BrainC16sendNotification4whatyAA13MessageEntityC_tF"></a>
+                    <a name="//apple_ref/swift/Method/sendNotification(what:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13bluetoothChat0B5BrainC16sendNotification4whatyAA13MessageEntityC_tF">sendNotification(what:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Send a notification to the user if the app is closed and and we retrieve a message.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">sendNotification</span><span class="p">(</span><span class="n">what</span> <span class="nv">message</span><span class="p">:</span> <span class="kt"><a href="../Classes/MessageEntity.html">MessageEntity</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>message</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The message that the user has received.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Sending%20messages."></a>
+                <a name="//apple_ref/swift/Section/Sending messages." class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Sending%20messages."></a>
+                  <h3 class="section-name"><span>Sending messages.</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13bluetoothChat0B5BrainC11sendMessage3for4text7contextyAA18ConversationEntityC_SSSo22NSManagedObjectContextCtF"></a>
+                    <a name="//apple_ref/swift/Method/sendMessage(for:text:context:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13bluetoothChat0B5BrainC11sendMessage3for4text7contextyAA18ConversationEntityC_SSSo22NSManagedObjectContextCtF">sendMessage(for:<wbr>text:<wbr>context:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sends a message to a specific user.</p>
+
+<p>This is done by encrypting the content of the message, generating new id&rsquo;s
+and passing it along to the peripheral manager to send out to connected
+central managers.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">sendMessage</span><span class="p">(</span><span class="k">for</span> <span class="nv">conversation</span><span class="p">:</span> <span class="kt"><a href="../Classes/ConversationEntity.html">ConversationEntity</a></span><span class="p">,</span> <span class="n">text</span> <span class="nv">message</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">context</span><span class="p">:</span> <span class="kt">NSManagedObjectContext</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>conversation</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The conversation for whom we want to send a message.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>message</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The message that we want to send. It is encrypted in this function.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>context</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The context which we save the message. Used for persistent storage to CoreData.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13bluetoothChat0B5BrainC15sendReadMessageyyAA18ConversationEntityCF"></a>
+                    <a name="//apple_ref/swift/Method/sendReadMessage(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13bluetoothChat0B5BrainC15sendReadMessageyyAA18ConversationEntityCF">sendReadMessage(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sends a message of id&rsquo;s which confirms that we have read the
+received messages.</p>
+
+<p>This function is only called if we have enabled the <code>read</code> functionality
+in the settings menu.</p>
+
+<p>We send a message with all the id&rsquo;s of the messages that we have read
+formatted as <code>READ/id1/id2/id2...</code>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">sendReadMessage</span><span class="p">(</span><span class="n">_</span> <span class="nv">conversation</span><span class="p">:</span> <span class="kt"><a href="../Classes/ConversationEntity.html">ConversationEntity</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>conversation</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The conversation which we have recently opened.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13bluetoothChat0B5BrainC14sendAckMessageyyAA0F6EntityCF"></a>
+                    <a name="//apple_ref/swift/Method/sendAckMessage(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13bluetoothChat0B5BrainC14sendAckMessageyyAA0F6EntityCF">sendAckMessage(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sends an <code>ACK</code> message to confirm that we have received a message.
+If we use DSR (Dynamic Source Routing) this messages is sent on the
+shortest route possible.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">sendAckMessage</span><span class="p">(</span><span class="n">_</span> <span class="nv">message</span><span class="p">:</span> <span class="kt"><a href="../Classes/MessageEntity.html">MessageEntity</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>message</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The message which we want to send an ACK message for.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2021 <a class="link" href="" target="_blank" rel="external noopener"></a>. All rights reserved. (Last updated: 2021-12-10)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.1</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ChatView Structure Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Struct/ChatView" class="dashAnchor"></a>
+    <a title="ChatView Structure Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (81% documented)</p>
+        <div class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </div>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" alt=""/>
+        ChatView Structure Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/AppDelegate.html">AppDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChatBrain.html">ChatBrain</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChatBrain/queuedMessage.html">– queuedMessage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ConversationEntity.html">ConversationEntity</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CryptoHandler.html">CryptoHandler</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/EmailHelper.html">EmailHelper</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MessageEntity.html">MessageEntity</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SceneDelegate.html">SceneDelegate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Global%20Variables.html">Global Variables</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Global%20Variables.html#/s:13bluetoothChat18enableMessageQueueSbvp">enableMessageQueue</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global%20Variables.html#/s:13bluetoothChat15useDSRAlgorithmSbvp">useDSRAlgorithm</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/Status.html">Status</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/Color.html">Color</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIApplication.html">UIApplication</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/AboutView.html">AboutView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Bubble.html">Bubble</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ChatView.html">ChatView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ConnectionView.html">ConnectionView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ConnectivityView.html">ConnectivityView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Conversation.html">Conversation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Device.html">Device</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/HomeView.html">HomeView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/LocalMessage.html">LocalMessage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Message.html">Message</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/MessageBubble.html">MessageBubble</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/MessageStatus.html">MessageStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/QRView.html">QRView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ReadToggle.html">ReadToggle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Service.html">Service</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/SetUpView.html">SetUpView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/SettingsView.html">SettingsView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/SupportView.html">SupportView</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>ChatView</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">struct</span> <span class="kt">ChatView</span> <span class="p">:</span> <span class="kt">View</span></code></pre>
+
+                </div>
+              </div>
+            <p>The <code>ChatView</code> displays a conversation and all the messages that have been sent and
+received in said conversation.</p>
+
+<p>It is also here that we send new messages.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13bluetoothChat0B4ViewV7contextSo22NSManagedObjectContextCvp"></a>
+                    <a name="//apple_ref/swift/Property/context" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13bluetoothChat0B4ViewV7contextSo22NSManagedObjectContextCvp">context</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The <code>CoreData</code> object context to which we save messages to persistent storage.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@Environment</span>
+<span class="k">var</span> <span class="nv">context</span><span class="p">:</span> <span class="kt">NSManagedObjectContext</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13bluetoothChat0B4ViewV11colorScheme7SwiftUI05ColorE0Ovp"></a>
+                    <a name="//apple_ref/swift/Property/colorScheme" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13bluetoothChat0B4ViewV11colorScheme7SwiftUI05ColorE0Ovp">colorScheme</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The users current colorscheme for pretty visuals.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@Environment</span>
+<span class="k">var</span> <span class="nv">colorScheme</span><span class="p">:</span> <span class="kt">ColorScheme</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13bluetoothChat0B4ViewV9chatBrainAA0bE0Cvp"></a>
+                    <a name="//apple_ref/swift/Property/chatBrain" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13bluetoothChat0B4ViewV9chatBrainAA0bE0Cvp">chatBrain</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The <code><a href="../Classes/ChatBrain.html">ChatBrain</a></code> object is used to send and receive messages.
+It handles the logic behind this view.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@EnvironmentObject</span>
+<span class="k">var</span> <span class="nv">chatBrain</span><span class="p">:</span> <span class="kt"><a href="../Classes/ChatBrain.html">ChatBrain</a></span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13bluetoothChat0B4ViewV12conversationAA18ConversationEntityCvp"></a>
+                    <a name="//apple_ref/swift/Property/conversation" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13bluetoothChat0B4ViewV12conversationAA18ConversationEntityCvp">conversation</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The current conversation that the user is in.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@ObservedObject</span>
+<span class="k">var</span> <span class="nv">conversation</span><span class="p">:</span> <span class="kt"><a href="../Classes/ConversationEntity.html">ConversationEntity</a></span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13bluetoothChat0B4ViewV8messages7SwiftUI14FetchedResultsVyAA13MessageEntityCGvp"></a>
+                    <a name="//apple_ref/swift/Property/messages" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13bluetoothChat0B4ViewV8messages7SwiftUI14FetchedResultsVyAA13MessageEntityCGvp">messages</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Fetched results of the messages for this conversation.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@FetchRequest</span>
+<span class="k">var</span> <span class="nv">messages</span><span class="p">:</span> <span class="kt">FetchedResults</span><span class="o">&lt;</span><span class="kt"><a href="../Classes/MessageEntity.html">MessageEntity</a></span><span class="o">&gt;</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13bluetoothChat0B4ViewV7messageSSvp"></a>
+                    <a name="//apple_ref/swift/Property/message" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13bluetoothChat0B4ViewV7messageSSvp">message</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Temporary storage of the textfield entry.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@State</span>
+<span class="k">var</span> <span class="nv">message</span><span class="p">:</span> <span class="kt">String</span> <span class="p">{</span> <span class="k">get</span> <span class="k">nonmutating</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13bluetoothChat0B4ViewV18showingReportAlertSbvp"></a>
+                    <a name="//apple_ref/swift/Property/showingReportAlert" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13bluetoothChat0B4ViewV18showingReportAlertSbvp">showingReportAlert</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A boolean for showing the report alert or not. Showed if we press
+the report button after a longpress on a message.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@State</span>
+<span class="k">var</span> <span class="nv">showingReportAlert</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="k">nonmutating</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13bluetoothChat0B4ViewV8usernameSSvp"></a>
+                    <a name="//apple_ref/swift/Property/username" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13bluetoothChat0B4ViewV8usernameSSvp">username</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Our username for comparisons to the username of the conversation.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">username</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13bluetoothChat0B4ViewV12conversationAcA18ConversationEntityC_tcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(conversation:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13bluetoothChat0B4ViewV12conversationAcA18ConversationEntityC_tcfc">init(conversation:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="nf">init</span><span class="p">(</span><span class="nv">conversation</span><span class="p">:</span> <span class="kt"><a href="../Classes/ConversationEntity.html">ConversationEntity</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7SwiftUI4ViewP4body4BodyQzvp"></a>
+                    <a name="//apple_ref/swift/Property/body" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7SwiftUI4ViewP4body4BodyQzvp">body</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">body</span><span class="p">:</span> <span class="kd">some</span> <span class="kt">View</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2021 <a class="link" href="" target="_blank" rel="external noopener"></a>. All rights reserved. (Last updated: 2021-12-10)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.1</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</html>
