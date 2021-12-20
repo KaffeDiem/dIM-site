@@ -85,20 +85,6 @@
       "warning": "undocumented"
     },
     {
-      "file": "/Users/repsak/Desktop/dIM/bluetoothChat/Views/ChatView/ChatView.swift",
-      "line": 175,
-      "symbol": "Bubble",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/repsak/Desktop/dIM/bluetoothChat/Views/ChatView/ChatView.swift",
-      "line": 176,
-      "symbol": "Bubble.chat",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
       "file": "/Users/repsak/Desktop/dIM/bluetoothChat/Views/ChatView/MessageBubble.swift",
       "line": 20,
       "symbol": "MessageBubble.dateFormatter",
@@ -120,16 +106,163 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Users/repsak/Desktop/dIM/bluetoothChat/Views/ExplanatoryView.swift",
+      "line": 114,
+      "symbol": "Carousel.items",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/repsak/Desktop/dIM/bluetoothChat/Views/ExplanatoryView.swift",
+      "line": 115,
+      "symbol": "Carousel.numberOfItems",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/repsak/Desktop/dIM/bluetoothChat/Views/ExplanatoryView.swift",
+      "line": 116,
+      "symbol": "Carousel.spacing",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/repsak/Desktop/dIM/bluetoothChat/Views/ExplanatoryView.swift",
+      "line": 117,
+      "symbol": "Carousel.widthOfHiddenCards",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/repsak/Desktop/dIM/bluetoothChat/Views/ExplanatoryView.swift",
+      "line": 118,
+      "symbol": "Carousel.totalSpacing",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/repsak/Desktop/dIM/bluetoothChat/Views/ExplanatoryView.swift",
+      "line": 119,
+      "symbol": "Carousel.cardWidth",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/repsak/Desktop/dIM/bluetoothChat/Views/ExplanatoryView.swift",
+      "line": 121,
+      "symbol": "Carousel.isDetectingLongPress",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/repsak/Desktop/dIM/bluetoothChat/Views/ExplanatoryView.swift",
+      "line": 123,
+      "symbol": "Carousel.UIState",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/repsak/Desktop/dIM/bluetoothChat/Views/ExplanatoryView.swift",
+      "line": 125,
+      "symbol": "Carousel.init(numberOfItems:spacing:widthOfHiddenCards:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/repsak/Desktop/dIM/bluetoothChat/Views/ExplanatoryView.swift",
+      "line": 179,
+      "symbol": "Canvas",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/repsak/Desktop/dIM/bluetoothChat/Views/ExplanatoryView.swift",
+      "line": 180,
+      "symbol": "Canvas.content",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/repsak/Desktop/dIM/bluetoothChat/Views/ExplanatoryView.swift",
+      "line": 181,
+      "symbol": "Canvas.UIState",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/repsak/Desktop/dIM/bluetoothChat/Views/ExplanatoryView.swift",
+      "line": 183,
+      "symbol": "Canvas.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/repsak/Desktop/dIM/bluetoothChat/Views/ExplanatoryView.swift",
+      "line": 193,
+      "symbol": "Item",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/repsak/Desktop/dIM/bluetoothChat/Views/ExplanatoryView.swift",
+      "line": 194,
+      "symbol": "Item.UIState",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/repsak/Desktop/dIM/bluetoothChat/Views/ExplanatoryView.swift",
+      "line": 195,
+      "symbol": "Item.cardWidth",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/repsak/Desktop/dIM/bluetoothChat/Views/ExplanatoryView.swift",
+      "line": 196,
+      "symbol": "Item.cardHeight",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/repsak/Desktop/dIM/bluetoothChat/Views/ExplanatoryView.swift",
+      "line": 198,
+      "symbol": "Item._id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/repsak/Desktop/dIM/bluetoothChat/Views/ExplanatoryView.swift",
+      "line": 199,
+      "symbol": "Item.content",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/repsak/Desktop/dIM/bluetoothChat/Views/ExplanatoryView.swift",
+      "line": 201,
+      "symbol": "Item.init(_id:spacing:widthOfHiddenCards:cardHeight:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/repsak/Desktop/dIM/bluetoothChat/Views/SetUpView.swift",
-      "line": 33,
-      "symbol": "SetUpView.conversations",
+      "line": 25,
+      "symbol": "SetUpView.carouselShown",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/repsak/Desktop/dIM/bluetoothChat/Views/SetUpView.swift",
-      "line": 35,
-      "symbol": "SetUpView.init()",
+      "line": 39,
+      "symbol": "SetUpView.conversations",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/repsak/Desktop/dIM/bluetoothChat/Views/SettingsView/SupportView.swift",
+      "line": 55,
+      "symbol": "EmailHelper.init()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
