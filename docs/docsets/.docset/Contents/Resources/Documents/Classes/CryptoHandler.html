@@ -17,7 +17,7 @@
     <a title="CryptoHandler Class Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html"> Docs</a> (82% documented)</p>
+        <p><a href="../index.html"> Docs</a> (80% documented)</p>
         <div class="header-right">
           <form role="search" action="../search.json">
             <input type="text" placeholder="Search documentation" data-typeahead>
@@ -42,10 +42,10 @@
                 <a href="../Classes/AppDelegate.html">AppDelegate</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/ChatBrain.html">ChatBrain</a>
+                <a href="../Classes/ChatHandler.html">ChatHandler</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/ChatBrain/queuedMessage.html">– queuedMessage</a>
+                <a href="../Classes/ChatHandler/queuedMessage.html">– queuedMessage</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/ConversationEntity.html">ConversationEntity</a>
@@ -89,9 +89,6 @@
           <li class="nav-group-name">
             <a href="../Extensions.html">Extensions</a>
             <ul class="nav-group-tasks">
-              <li class="nav-group-task">
-                <a href="../Extensions/Color.html">Color</a>
-              </li>
               <li class="nav-group-task">
                 <a href="../Extensions/UIApplication.html">UIApplication</a>
               </li>
@@ -181,9 +178,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:13bluetoothChat13CryptoHandlerC12getPublicKeySSyF"></a>
+                    <a name="/s:13bluetoothChat13CryptoHandlerC12getPublicKeySSyFZ"></a>
                     <a name="//apple_ref/swift/Method/getPublicKey()" class="dashAnchor"></a>
-                    <a class="token" href="#/s:13bluetoothChat13CryptoHandlerC12getPublicKeySSyF">getPublicKey()</a>
+                    <a class="token" href="#/s:13bluetoothChat13CryptoHandlerC12getPublicKeySSyFZ">getPublicKey()</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -201,7 +198,7 @@ Otherwise it will generate a new public key.</p>
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">getPublicKey</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">getPublicKey</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
 
                         </div>
                       </div>
@@ -215,9 +212,9 @@ Otherwise it will generate a new public key.</p>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:13bluetoothChat13CryptoHandlerC13getPrivateKey0C3Kit4P256O0G9AgreementO0fG0VyF"></a>
+                    <a name="/s:13bluetoothChat13CryptoHandlerC13getPrivateKey0C3Kit4P256O0G9AgreementO0fG0VyFZ"></a>
                     <a name="//apple_ref/swift/Method/getPrivateKey()" class="dashAnchor"></a>
-                    <a class="token" href="#/s:13bluetoothChat13CryptoHandlerC13getPrivateKey0C3Kit4P256O0G9AgreementO0fG0VyF">getPrivateKey()</a>
+                    <a class="token" href="#/s:13bluetoothChat13CryptoHandlerC13getPrivateKey0C3Kit4P256O0G9AgreementO0fG0VyFZ">getPrivateKey()</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -232,7 +229,7 @@ Otherwise it will generate a new public key.</p>
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">getPrivateKey</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">P256</span><span class="o">.</span><span class="kt">KeyAgreement</span><span class="o">.</span><span class="kt">PrivateKey</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">getPrivateKey</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">P256</span><span class="o">.</span><span class="kt">KeyAgreement</span><span class="o">.</span><span class="kt">PrivateKey</span></code></pre>
 
                         </div>
                       </div>
@@ -246,9 +243,9 @@ Otherwise it will generate a new public key.</p>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:13bluetoothChat13CryptoHandlerC18generatePrivateKey0C3Kit4P256O0G9AgreementO0fG0VyF"></a>
+                    <a name="/s:13bluetoothChat13CryptoHandlerC18generatePrivateKey0C3Kit4P256O0G9AgreementO0fG0VyFZ"></a>
                     <a name="//apple_ref/swift/Method/generatePrivateKey()" class="dashAnchor"></a>
-                    <a class="token" href="#/s:13bluetoothChat13CryptoHandlerC18generatePrivateKey0C3Kit4P256O0G9AgreementO0fG0VyF">generatePrivateKey()</a>
+                    <a class="token" href="#/s:13bluetoothChat13CryptoHandlerC18generatePrivateKey0C3Kit4P256O0G9AgreementO0fG0VyFZ">generatePrivateKey()</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -267,7 +264,7 @@ It can be accessed with <code>privatekey.publickey</code></p>
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">generatePrivateKey</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">P256</span><span class="o">.</span><span class="kt">KeyAgreement</span><span class="o">.</span><span class="kt">PrivateKey</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">generatePrivateKey</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">P256</span><span class="o">.</span><span class="kt">KeyAgreement</span><span class="o">.</span><span class="kt">PrivateKey</span></code></pre>
 
                         </div>
                       </div>
@@ -281,9 +278,9 @@ It can be accessed with <code>privatekey.publickey</code></p>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:13bluetoothChat13CryptoHandlerC16exportPrivateKeyySS0C3Kit4P256O0G9AgreementO0fG0VF"></a>
+                    <a name="/s:13bluetoothChat13CryptoHandlerC16exportPrivateKeyySS0C3Kit4P256O0G9AgreementO0fG0VFZ"></a>
                     <a name="//apple_ref/swift/Method/exportPrivateKey(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:13bluetoothChat13CryptoHandlerC16exportPrivateKeyySS0C3Kit4P256O0G9AgreementO0fG0VF">exportPrivateKey(_:<wbr>)</a>
+                    <a class="token" href="#/s:13bluetoothChat13CryptoHandlerC16exportPrivateKeyySS0C3Kit4P256O0G9AgreementO0fG0VFZ">exportPrivateKey(_:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -299,7 +296,7 @@ saved to storage.</p>
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">exportPrivateKey</span><span class="p">(</span><span class="n">_</span> <span class="nv">privateKey</span><span class="p">:</span> <span class="kt">P256</span><span class="o">.</span><span class="kt">KeyAgreement</span><span class="o">.</span><span class="kt">PrivateKey</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">exportPrivateKey</span><span class="p">(</span><span class="n">_</span> <span class="nv">privateKey</span><span class="p">:</span> <span class="kt">P256</span><span class="o">.</span><span class="kt">KeyAgreement</span><span class="o">.</span><span class="kt">PrivateKey</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
 
                         </div>
                       </div>
@@ -332,9 +329,9 @@ saved to storage.</p>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:13bluetoothChat13CryptoHandlerC15exportPublicKeyySS0C3Kit4P256O0G9AgreementO0fG0VF"></a>
+                    <a name="/s:13bluetoothChat13CryptoHandlerC15exportPublicKeyySS0C3Kit4P256O0G9AgreementO0fG0VFZ"></a>
                     <a name="//apple_ref/swift/Method/exportPublicKey(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:13bluetoothChat13CryptoHandlerC15exportPublicKeyySS0C3Kit4P256O0G9AgreementO0fG0VF">exportPublicKey(_:<wbr>)</a>
+                    <a class="token" href="#/s:13bluetoothChat13CryptoHandlerC15exportPublicKeyySS0C3Kit4P256O0G9AgreementO0fG0VFZ">exportPublicKey(_:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -350,7 +347,7 @@ saved to storage.</p>
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">exportPublicKey</span><span class="p">(</span><span class="n">_</span> <span class="nv">publicKey</span><span class="p">:</span> <span class="kt">P256</span><span class="o">.</span><span class="kt">KeyAgreement</span><span class="o">.</span><span class="kt">PublicKey</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">exportPublicKey</span><span class="p">(</span><span class="n">_</span> <span class="nv">publicKey</span><span class="p">:</span> <span class="kt">P256</span><span class="o">.</span><span class="kt">KeyAgreement</span><span class="o">.</span><span class="kt">PublicKey</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
 
                         </div>
                       </div>
@@ -383,9 +380,9 @@ saved to storage.</p>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:13bluetoothChat13CryptoHandlerC16importPrivateKeyy0C3Kit4P256O0G9AgreementO0fG0VSSKF"></a>
+                    <a name="/s:13bluetoothChat13CryptoHandlerC16importPrivateKeyy0C3Kit4P256O0G9AgreementO0fG0VSSKFZ"></a>
                     <a name="//apple_ref/swift/Method/importPrivateKey(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:13bluetoothChat13CryptoHandlerC16importPrivateKeyy0C3Kit4P256O0G9AgreementO0fG0VSSKF">importPrivateKey(_:<wbr>)</a>
+                    <a class="token" href="#/s:13bluetoothChat13CryptoHandlerC16importPrivateKeyy0C3Kit4P256O0G9AgreementO0fG0VSSKFZ">importPrivateKey(_:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -405,7 +402,7 @@ saved to storage.</p>
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">importPrivateKey</span><span class="p">(</span><span class="n">_</span> <span class="nv">privateKey</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt">P256</span><span class="o">.</span><span class="kt">KeyAgreement</span><span class="o">.</span><span class="kt">PrivateKey</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">importPrivateKey</span><span class="p">(</span><span class="n">_</span> <span class="nv">privateKey</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt">P256</span><span class="o">.</span><span class="kt">KeyAgreement</span><span class="o">.</span><span class="kt">PrivateKey</span></code></pre>
 
                         </div>
                       </div>
@@ -438,9 +435,9 @@ saved to storage.</p>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:13bluetoothChat13CryptoHandlerC15importPublicKeyy0C3Kit4P256O0G9AgreementO0fG0VSSKF"></a>
+                    <a name="/s:13bluetoothChat13CryptoHandlerC15importPublicKeyy0C3Kit4P256O0G9AgreementO0fG0VSSKFZ"></a>
                     <a name="//apple_ref/swift/Method/importPublicKey(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:13bluetoothChat13CryptoHandlerC15importPublicKeyy0C3Kit4P256O0G9AgreementO0fG0VSSKF">importPublicKey(_:<wbr>)</a>
+                    <a class="token" href="#/s:13bluetoothChat13CryptoHandlerC15importPublicKeyy0C3Kit4P256O0G9AgreementO0fG0VSSKFZ">importPublicKey(_:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -460,7 +457,7 @@ saved to storage.</p>
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">importPublicKey</span><span class="p">(</span><span class="n">_</span> <span class="nv">publicKey</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt">P256</span><span class="o">.</span><span class="kt">KeyAgreement</span><span class="o">.</span><span class="kt">PublicKey</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">importPublicKey</span><span class="p">(</span><span class="n">_</span> <span class="nv">publicKey</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt">P256</span><span class="o">.</span><span class="kt">KeyAgreement</span><span class="o">.</span><span class="kt">PublicKey</span></code></pre>
 
                         </div>
                       </div>
@@ -493,9 +490,9 @@ saved to storage.</p>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:13bluetoothChat13CryptoHandlerC18deriveSymmetricKey07privateG006publicG00C3Kit0fG0VAG4P256O0G9AgreementO07PrivateG0V_AM06PublicG0VtKF"></a>
+                    <a name="/s:13bluetoothChat13CryptoHandlerC18deriveSymmetricKey07privateG006publicG00C3Kit0fG0VAG4P256O0G9AgreementO07PrivateG0V_AM06PublicG0VtKFZ"></a>
                     <a name="//apple_ref/swift/Method/deriveSymmetricKey(privateKey:publicKey:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:13bluetoothChat13CryptoHandlerC18deriveSymmetricKey07privateG006publicG00C3Kit0fG0VAG4P256O0G9AgreementO07PrivateG0V_AM06PublicG0VtKF">deriveSymmetricKey(privateKey:<wbr>publicKey:<wbr>)</a>
+                    <a class="token" href="#/s:13bluetoothChat13CryptoHandlerC18deriveSymmetricKey07privateG006publicG00C3Kit0fG0VAG4P256O0G9AgreementO07PrivateG0V_AM06PublicG0VtKFZ">deriveSymmetricKey(privateKey:<wbr>publicKey:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -515,7 +512,7 @@ saved to storage.</p>
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">deriveSymmetricKey</span><span class="p">(</span><span class="nv">privateKey</span><span class="p">:</span> <span class="kt">P256</span><span class="o">.</span><span class="kt">KeyAgreement</span><span class="o">.</span><span class="kt">PrivateKey</span><span class="p">,</span> <span class="nv">publicKey</span><span class="p">:</span> <span class="kt">P256</span><span class="o">.</span><span class="kt">KeyAgreement</span><span class="o">.</span><span class="kt">PublicKey</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt">SymmetricKey</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">deriveSymmetricKey</span><span class="p">(</span><span class="nv">privateKey</span><span class="p">:</span> <span class="kt">P256</span><span class="o">.</span><span class="kt">KeyAgreement</span><span class="o">.</span><span class="kt">PrivateKey</span><span class="p">,</span> <span class="nv">publicKey</span><span class="p">:</span> <span class="kt">P256</span><span class="o">.</span><span class="kt">KeyAgreement</span><span class="o">.</span><span class="kt">PublicKey</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt">SymmetricKey</span></code></pre>
 
                         </div>
                       </div>
@@ -560,9 +557,9 @@ saved to storage.</p>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:13bluetoothChat13CryptoHandlerC14encryptMessage4text12symmetricKeyS2S_0C3Kit09SymmetricI0VtKF"></a>
+                    <a name="/s:13bluetoothChat13CryptoHandlerC14encryptMessage4text12symmetricKeyS2S_0C3Kit09SymmetricI0VtKFZ"></a>
                     <a name="//apple_ref/swift/Method/encryptMessage(text:symmetricKey:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:13bluetoothChat13CryptoHandlerC14encryptMessage4text12symmetricKeyS2S_0C3Kit09SymmetricI0VtKF">encryptMessage(text:<wbr>symmetricKey:<wbr>)</a>
+                    <a class="token" href="#/s:13bluetoothChat13CryptoHandlerC14encryptMessage4text12symmetricKeyS2S_0C3Kit09SymmetricI0VtKFZ">encryptMessage(text:<wbr>symmetricKey:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -582,7 +579,7 @@ saved to storage.</p>
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">encryptMessage</span><span class="p">(</span><span class="nv">text</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">symmetricKey</span><span class="p">:</span> <span class="kt">SymmetricKey</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">encryptMessage</span><span class="p">(</span><span class="nv">text</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">symmetricKey</span><span class="p">:</span> <span class="kt">SymmetricKey</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
 
                         </div>
                       </div>
@@ -627,9 +624,9 @@ saved to storage.</p>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:13bluetoothChat13CryptoHandlerC14decryptMessage4text12symmetricKeyS2S_0C3Kit09SymmetricI0VtF"></a>
+                    <a name="/s:13bluetoothChat13CryptoHandlerC14decryptMessage4text12symmetricKeyS2S_0C3Kit09SymmetricI0VtFZ"></a>
                     <a name="//apple_ref/swift/Method/decryptMessage(text:symmetricKey:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:13bluetoothChat13CryptoHandlerC14decryptMessage4text12symmetricKeyS2S_0C3Kit09SymmetricI0VtF">decryptMessage(text:<wbr>symmetricKey:<wbr>)</a>
+                    <a class="token" href="#/s:13bluetoothChat13CryptoHandlerC14decryptMessage4text12symmetricKeyS2S_0C3Kit09SymmetricI0VtFZ">decryptMessage(text:<wbr>symmetricKey:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -644,7 +641,7 @@ saved to storage.</p>
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">decryptMessage</span><span class="p">(</span><span class="nv">text</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">symmetricKey</span><span class="p">:</span> <span class="kt">SymmetricKey</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">decryptMessage</span><span class="p">(</span><span class="nv">text</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">symmetricKey</span><span class="p">:</span> <span class="kt">SymmetricKey</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
 
                         </div>
                       </div>
@@ -691,7 +688,7 @@ saved to storage.</p>
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2021 <a class="link" href="" target="_blank" rel="external noopener"></a>. All rights reserved. (Last updated: 2021-12-20)</p>
+          <p>&copy; 2022 <a class="link" href="" target="_blank" rel="external noopener"></a>. All rights reserved. (Last updated: 2022-01-31)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.1</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
         </section>
       </article>

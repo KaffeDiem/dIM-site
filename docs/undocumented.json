@@ -1,299 +1,327 @@
 {
   "warnings": [
     {
-      "file": "/Users/repsak/Desktop/dIM/bluetoothChat/Controllers/Transmission/MessageQueueHandler.swift",
+      "file": "/Users/repsak/Desktop/test_dim/dIM/bluetoothChat/Controllers/ChatHandler.swift",
+      "line": 137,
+      "symbol": "ChatHandler.handleScan(result:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/repsak/Desktop/test_dim/dIM/bluetoothChat/Controllers/Transmission/MessageQueueHandler.swift",
       "line": 18,
-      "symbol": "ChatBrain.queuedMessage.message",
+      "symbol": "ChatHandler.queuedMessage.message",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/repsak/Desktop/dIM/bluetoothChat/Controllers/Transmission/MessageQueueHandler.swift",
+      "file": "/Users/repsak/Desktop/test_dim/dIM/bluetoothChat/Controllers/Transmission/MessageQueueHandler.swift",
       "line": 19,
-      "symbol": "ChatBrain.queuedMessage.date",
+      "symbol": "ChatHandler.queuedMessage.date",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/repsak/Desktop/dIM/bluetoothChat/Models/MessageStatusModel.swift",
+      "file": "/Users/repsak/Desktop/test_dim/dIM/bluetoothChat/Models/MessageStatusModel.swift",
       "line": 15,
       "symbol": "Status.sent",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/repsak/Desktop/dIM/bluetoothChat/Models/MessageStatusModel.swift",
+      "file": "/Users/repsak/Desktop/test_dim/dIM/bluetoothChat/Models/MessageStatusModel.swift",
       "line": 16,
       "symbol": "Status.delivered",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/repsak/Desktop/dIM/bluetoothChat/Models/MessageStatusModel.swift",
+      "file": "/Users/repsak/Desktop/test_dim/dIM/bluetoothChat/Models/MessageStatusModel.swift",
       "line": 17,
       "symbol": "Status.read",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/repsak/Desktop/dIM/bluetoothChat/Models/MessageStatusModel.swift",
+      "file": "/Users/repsak/Desktop/test_dim/dIM/bluetoothChat/Models/MessageStatusModel.swift",
       "line": 18,
       "symbol": "Status.received",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/repsak/Desktop/dIM/bluetoothChat/Models/MessageStatusModel.swift",
+      "file": "/Users/repsak/Desktop/test_dim/dIM/bluetoothChat/Models/MessageStatusModel.swift",
       "line": 19,
       "symbol": "Status.receivedReadSent",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/repsak/Desktop/dIM/bluetoothChat/Models/MessageStatusModel.swift",
+      "file": "/Users/repsak/Desktop/test_dim/dIM/bluetoothChat/Models/MessageStatusModel.swift",
       "line": 20,
       "symbol": "Status.unknown",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/repsak/Desktop/dIM/bluetoothChat/Models/MessageStatusModel.swift",
+      "file": "/Users/repsak/Desktop/test_dim/dIM/bluetoothChat/Models/MessageStatusModel.swift",
       "line": 21,
       "symbol": "Status.failed",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/repsak/Desktop/dIM/bluetoothChat/Models/ServiceModel.swift",
+      "file": "/Users/repsak/Desktop/test_dim/dIM/bluetoothChat/Models/ServiceModel.swift",
       "line": 16,
       "symbol": "Service.deviceName",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/repsak/Desktop/dIM/bluetoothChat/SceneDelegate.swift",
+      "file": "/Users/repsak/Desktop/test_dim/dIM/bluetoothChat/SceneDelegate.swift",
       "line": 16,
       "symbol": "SceneDelegate.window",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/repsak/Desktop/dIM/bluetoothChat/Views/ChatView/ChatView.swift",
+      "file": "/Users/repsak/Desktop/test_dim/dIM/bluetoothChat/Views/ChatView/ChatView.swift",
       "line": 42,
       "symbol": "ChatView.init(conversation:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/repsak/Desktop/dIM/bluetoothChat/Views/ChatView/MessageBubble.swift",
+      "file": "/Users/repsak/Desktop/test_dim/dIM/bluetoothChat/Views/ChatView/ChatViewDetails/MessageBubble.swift",
       "line": 20,
       "symbol": "MessageBubble.dateFormatter",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/repsak/Desktop/dIM/bluetoothChat/Views/ConnectionView.swift",
+      "file": "/Users/repsak/Desktop/test_dim/dIM/bluetoothChat/Views/ConnectionView.swift",
       "line": 10,
       "symbol": "ConnectionView",
       "symbol_kind": "source.lang.swift.decl.struct",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/repsak/Desktop/dIM/bluetoothChat/Views/ConnectionView.swift",
+      "file": "/Users/repsak/Desktop/test_dim/dIM/bluetoothChat/Views/ConnectionView.swift",
       "line": 11,
       "symbol": "ConnectionView.bluetoothManager",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/repsak/Desktop/dIM/bluetoothChat/Views/SetUpView.swift",
+      "file": "/Users/repsak/Desktop/test_dim/dIM/bluetoothChat/Views/QRView.swift",
+      "line": 20,
+      "symbol": "QRView.chatBrain",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/repsak/Desktop/test_dim/dIM/bluetoothChat/Views/QRView.swift",
+      "line": 117,
+      "symbol": "QRView.handleScan(result:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/repsak/Desktop/test_dim/dIM/bluetoothChat/Views/SetUpView.swift",
       "line": 25,
       "symbol": "SetUpView.carouselShown",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/repsak/Desktop/dIM/bluetoothChat/Views/SetUpView.swift",
+      "file": "/Users/repsak/Desktop/test_dim/dIM/bluetoothChat/Views/SetUpView.swift",
       "line": 39,
       "symbol": "SetUpView.conversations",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/repsak/Desktop/dIM/bluetoothChat/Views/SettingsView/SupportView.swift",
+      "file": "/Users/repsak/Desktop/test_dim/dIM/bluetoothChat/Views/SettingsView/SettingsDetailView/SupportView.swift",
       "line": 83,
       "symbol": "EmailHelper.mailComposeController(_:didFinishWith:error:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/repsak/Desktop/dIM/bluetoothChat/Views/SettingsView/SupportView.swift",
+      "file": "/Users/repsak/Desktop/test_dim/dIM/bluetoothChat/Views/SettingsView/SettingsDetailView/SupportView.swift",
       "line": 87,
       "symbol": "EmailHelper.getRootViewController()",
       "symbol_kind": "source.lang.swift.decl.function.method.static",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/repsak/Library/Developer/Xcode/DerivedData/dIM-bqtlbfnqjzpngaftoahiyweammif/Build/Intermediates.noindex/dIM.build/Debug-iphoneos/bluetoothChat.build/DerivedSources/CoreDataGenerated/DataModel/ConversationEntity+CoreDataClass.swift",
+      "file": "/Users/repsak/Library/Developer/Xcode/DerivedData/dIM-amawqwgvvqldnxgxvmmfkblltajs/Build/Intermediates.noindex/dIM.build/Debug-iphonesimulator/bluetoothChat.build/DerivedSources/CoreDataGenerated/DataModel/ConversationEntity+CoreDataClass.swift",
       "line": 14,
       "symbol": "ConversationEntity",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/repsak/Library/Developer/Xcode/DerivedData/dIM-bqtlbfnqjzpngaftoahiyweammif/Build/Intermediates.noindex/dIM.build/Debug-iphoneos/bluetoothChat.build/DerivedSources/CoreDataGenerated/DataModel/ConversationEntity+CoreDataClass.swift",
+      "file": "/Users/repsak/Library/Developer/Xcode/DerivedData/dIM-amawqwgvvqldnxgxvmmfkblltajs/Build/Intermediates.noindex/dIM.build/Debug-iphonesimulator/bluetoothChat.build/DerivedSources/CoreDataGenerated/DataModel/ConversationEntity+CoreDataClass.swift",
       "line": 14,
       "symbol": "ConversationEntity",
       "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/repsak/Library/Developer/Xcode/DerivedData/dIM-bqtlbfnqjzpngaftoahiyweammif/Build/Intermediates.noindex/dIM.build/Debug-iphoneos/bluetoothChat.build/DerivedSources/CoreDataGenerated/DataModel/ConversationEntity+CoreDataClass.swift",
-      "line": 28,
+      "file": "/Users/repsak/Library/Developer/Xcode/DerivedData/dIM-amawqwgvvqldnxgxvmmfkblltajs/Build/Intermediates.noindex/dIM.build/Debug-iphonesimulator/bluetoothChat.build/DerivedSources/CoreDataGenerated/DataModel/ConversationEntity+CoreDataClass.swift",
+      "line": 29,
       "symbol": "ConversationEntity",
       "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/repsak/Library/Developer/Xcode/DerivedData/dIM-bqtlbfnqjzpngaftoahiyweammif/Build/Intermediates.noindex/dIM.build/Debug-iphoneos/bluetoothChat.build/DerivedSources/CoreDataGenerated/DataModel/ConversationEntity+CoreDataClass.swift",
-      "line": 44,
+      "file": "/Users/repsak/Library/Developer/Xcode/DerivedData/dIM-amawqwgvvqldnxgxvmmfkblltajs/Build/Intermediates.noindex/dIM.build/Debug-iphonesimulator/bluetoothChat.build/DerivedSources/CoreDataGenerated/DataModel/ConversationEntity+CoreDataClass.swift",
+      "line": 45,
       "symbol": "ConversationEntity",
       "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/repsak/Library/Developer/Xcode/DerivedData/dIM-bqtlbfnqjzpngaftoahiyweammif/Build/Intermediates.noindex/dIM.build/Debug-iphoneos/bluetoothChat.build/DerivedSources/CoreDataGenerated/DataModel/ConversationEntity+CoreDataProperties.swift",
+      "file": "/Users/repsak/Library/Developer/Xcode/DerivedData/dIM-amawqwgvvqldnxgxvmmfkblltajs/Build/Intermediates.noindex/dIM.build/Debug-iphonesimulator/bluetoothChat.build/DerivedSources/CoreDataGenerated/DataModel/ConversationEntity+CoreDataProperties.swift",
       "line": 16,
       "symbol": "ConversationEntity.fetchRequest()",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/repsak/Library/Developer/Xcode/DerivedData/dIM-bqtlbfnqjzpngaftoahiyweammif/Build/Intermediates.noindex/dIM.build/Debug-iphoneos/bluetoothChat.build/DerivedSources/CoreDataGenerated/DataModel/ConversationEntity+CoreDataProperties.swift",
+      "file": "/Users/repsak/Library/Developer/Xcode/DerivedData/dIM-amawqwgvvqldnxgxvmmfkblltajs/Build/Intermediates.noindex/dIM.build/Debug-iphonesimulator/bluetoothChat.build/DerivedSources/CoreDataGenerated/DataModel/ConversationEntity+CoreDataProperties.swift",
       "line": 20,
       "symbol": "ConversationEntity.author",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/repsak/Library/Developer/Xcode/DerivedData/dIM-bqtlbfnqjzpngaftoahiyweammif/Build/Intermediates.noindex/dIM.build/Debug-iphoneos/bluetoothChat.build/DerivedSources/CoreDataGenerated/DataModel/ConversationEntity+CoreDataProperties.swift",
+      "file": "/Users/repsak/Library/Developer/Xcode/DerivedData/dIM-amawqwgvvqldnxgxvmmfkblltajs/Build/Intermediates.noindex/dIM.build/Debug-iphonesimulator/bluetoothChat.build/DerivedSources/CoreDataGenerated/DataModel/ConversationEntity+CoreDataProperties.swift",
       "line": 21,
+      "symbol": "ConversationEntity.date",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/repsak/Library/Developer/Xcode/DerivedData/dIM-amawqwgvvqldnxgxvmmfkblltajs/Build/Intermediates.noindex/dIM.build/Debug-iphonesimulator/bluetoothChat.build/DerivedSources/CoreDataGenerated/DataModel/ConversationEntity+CoreDataProperties.swift",
+      "line": 22,
       "symbol": "ConversationEntity.lastMessage",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/repsak/Library/Developer/Xcode/DerivedData/dIM-bqtlbfnqjzpngaftoahiyweammif/Build/Intermediates.noindex/dIM.build/Debug-iphoneos/bluetoothChat.build/DerivedSources/CoreDataGenerated/DataModel/ConversationEntity+CoreDataProperties.swift",
-      "line": 22,
+      "file": "/Users/repsak/Library/Developer/Xcode/DerivedData/dIM-amawqwgvvqldnxgxvmmfkblltajs/Build/Intermediates.noindex/dIM.build/Debug-iphonesimulator/bluetoothChat.build/DerivedSources/CoreDataGenerated/DataModel/ConversationEntity+CoreDataProperties.swift",
+      "line": 23,
       "symbol": "ConversationEntity.publicKey",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/repsak/Library/Developer/Xcode/DerivedData/dIM-bqtlbfnqjzpngaftoahiyweammif/Build/Intermediates.noindex/dIM.build/Debug-iphoneos/bluetoothChat.build/DerivedSources/CoreDataGenerated/DataModel/ConversationEntity+CoreDataProperties.swift",
-      "line": 23,
+      "file": "/Users/repsak/Library/Developer/Xcode/DerivedData/dIM-amawqwgvvqldnxgxvmmfkblltajs/Build/Intermediates.noindex/dIM.build/Debug-iphonesimulator/bluetoothChat.build/DerivedSources/CoreDataGenerated/DataModel/ConversationEntity+CoreDataProperties.swift",
+      "line": 24,
       "symbol": "ConversationEntity.messages",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/repsak/Library/Developer/Xcode/DerivedData/dIM-bqtlbfnqjzpngaftoahiyweammif/Build/Intermediates.noindex/dIM.build/Debug-iphoneos/bluetoothChat.build/DerivedSources/CoreDataGenerated/DataModel/ConversationEntity+CoreDataProperties.swift",
-      "line": 31,
+      "file": "/Users/repsak/Library/Developer/Xcode/DerivedData/dIM-amawqwgvvqldnxgxvmmfkblltajs/Build/Intermediates.noindex/dIM.build/Debug-iphonesimulator/bluetoothChat.build/DerivedSources/CoreDataGenerated/DataModel/ConversationEntity+CoreDataProperties.swift",
+      "line": 32,
       "symbol": "ConversationEntity.addToMessages(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/repsak/Library/Developer/Xcode/DerivedData/dIM-bqtlbfnqjzpngaftoahiyweammif/Build/Intermediates.noindex/dIM.build/Debug-iphoneos/bluetoothChat.build/DerivedSources/CoreDataGenerated/DataModel/ConversationEntity+CoreDataProperties.swift",
-      "line": 34,
+      "file": "/Users/repsak/Library/Developer/Xcode/DerivedData/dIM-amawqwgvvqldnxgxvmmfkblltajs/Build/Intermediates.noindex/dIM.build/Debug-iphonesimulator/bluetoothChat.build/DerivedSources/CoreDataGenerated/DataModel/ConversationEntity+CoreDataProperties.swift",
+      "line": 35,
       "symbol": "ConversationEntity.removeFromMessages(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/repsak/Library/Developer/Xcode/DerivedData/dIM-bqtlbfnqjzpngaftoahiyweammif/Build/Intermediates.noindex/dIM.build/Debug-iphoneos/bluetoothChat.build/DerivedSources/CoreDataGenerated/DataModel/ConversationEntity+CoreDataProperties.swift",
-      "line": 37,
+      "file": "/Users/repsak/Library/Developer/Xcode/DerivedData/dIM-amawqwgvvqldnxgxvmmfkblltajs/Build/Intermediates.noindex/dIM.build/Debug-iphonesimulator/bluetoothChat.build/DerivedSources/CoreDataGenerated/DataModel/ConversationEntity+CoreDataProperties.swift",
+      "line": 38,
       "symbol": "ConversationEntity.addToMessages(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/repsak/Library/Developer/Xcode/DerivedData/dIM-bqtlbfnqjzpngaftoahiyweammif/Build/Intermediates.noindex/dIM.build/Debug-iphoneos/bluetoothChat.build/DerivedSources/CoreDataGenerated/DataModel/ConversationEntity+CoreDataProperties.swift",
-      "line": 40,
+      "file": "/Users/repsak/Library/Developer/Xcode/DerivedData/dIM-amawqwgvvqldnxgxvmmfkblltajs/Build/Intermediates.noindex/dIM.build/Debug-iphonesimulator/bluetoothChat.build/DerivedSources/CoreDataGenerated/DataModel/ConversationEntity+CoreDataProperties.swift",
+      "line": 41,
       "symbol": "ConversationEntity.removeFromMessages(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/repsak/Library/Developer/Xcode/DerivedData/dIM-bqtlbfnqjzpngaftoahiyweammif/Build/Intermediates.noindex/dIM.build/Debug-iphoneos/bluetoothChat.build/DerivedSources/CoreDataGenerated/DataModel/MessageEntity+CoreDataClass.swift",
+      "file": "/Users/repsak/Library/Developer/Xcode/DerivedData/dIM-amawqwgvvqldnxgxvmmfkblltajs/Build/Intermediates.noindex/dIM.build/Debug-iphonesimulator/bluetoothChat.build/DerivedSources/CoreDataGenerated/DataModel/MessageEntity+CoreDataClass.swift",
       "line": 14,
       "symbol": "MessageEntity",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/repsak/Library/Developer/Xcode/DerivedData/dIM-bqtlbfnqjzpngaftoahiyweammif/Build/Intermediates.noindex/dIM.build/Debug-iphoneos/bluetoothChat.build/DerivedSources/CoreDataGenerated/DataModel/MessageEntity+CoreDataClass.swift",
+      "file": "/Users/repsak/Library/Developer/Xcode/DerivedData/dIM-amawqwgvvqldnxgxvmmfkblltajs/Build/Intermediates.noindex/dIM.build/Debug-iphonesimulator/bluetoothChat.build/DerivedSources/CoreDataGenerated/DataModel/MessageEntity+CoreDataClass.swift",
       "line": 14,
       "symbol": "MessageEntity",
       "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/repsak/Library/Developer/Xcode/DerivedData/dIM-bqtlbfnqjzpngaftoahiyweammif/Build/Intermediates.noindex/dIM.build/Debug-iphoneos/bluetoothChat.build/DerivedSources/CoreDataGenerated/DataModel/MessageEntity+CoreDataClass.swift",
+      "file": "/Users/repsak/Library/Developer/Xcode/DerivedData/dIM-amawqwgvvqldnxgxvmmfkblltajs/Build/Intermediates.noindex/dIM.build/Debug-iphonesimulator/bluetoothChat.build/DerivedSources/CoreDataGenerated/DataModel/MessageEntity+CoreDataClass.swift",
       "line": 30,
       "symbol": "MessageEntity",
       "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/repsak/Library/Developer/Xcode/DerivedData/dIM-bqtlbfnqjzpngaftoahiyweammif/Build/Intermediates.noindex/dIM.build/Debug-iphoneos/bluetoothChat.build/DerivedSources/CoreDataGenerated/DataModel/MessageEntity+CoreDataProperties.swift",
+      "file": "/Users/repsak/Library/Developer/Xcode/DerivedData/dIM-amawqwgvvqldnxgxvmmfkblltajs/Build/Intermediates.noindex/dIM.build/Debug-iphonesimulator/bluetoothChat.build/DerivedSources/CoreDataGenerated/DataModel/MessageEntity+CoreDataProperties.swift",
       "line": 16,
       "symbol": "MessageEntity.fetchRequest()",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/repsak/Library/Developer/Xcode/DerivedData/dIM-bqtlbfnqjzpngaftoahiyweammif/Build/Intermediates.noindex/dIM.build/Debug-iphoneos/bluetoothChat.build/DerivedSources/CoreDataGenerated/DataModel/MessageEntity+CoreDataProperties.swift",
+      "file": "/Users/repsak/Library/Developer/Xcode/DerivedData/dIM-amawqwgvvqldnxgxvmmfkblltajs/Build/Intermediates.noindex/dIM.build/Debug-iphonesimulator/bluetoothChat.build/DerivedSources/CoreDataGenerated/DataModel/MessageEntity+CoreDataProperties.swift",
       "line": 20,
       "symbol": "MessageEntity.date",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/repsak/Library/Developer/Xcode/DerivedData/dIM-bqtlbfnqjzpngaftoahiyweammif/Build/Intermediates.noindex/dIM.build/Debug-iphoneos/bluetoothChat.build/DerivedSources/CoreDataGenerated/DataModel/MessageEntity+CoreDataProperties.swift",
+      "file": "/Users/repsak/Library/Developer/Xcode/DerivedData/dIM-amawqwgvvqldnxgxvmmfkblltajs/Build/Intermediates.noindex/dIM.build/Debug-iphonesimulator/bluetoothChat.build/DerivedSources/CoreDataGenerated/DataModel/MessageEntity+CoreDataProperties.swift",
       "line": 22,
       "symbol": "MessageEntity.receiver",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/repsak/Library/Developer/Xcode/DerivedData/dIM-bqtlbfnqjzpngaftoahiyweammif/Build/Intermediates.noindex/dIM.build/Debug-iphoneos/bluetoothChat.build/DerivedSources/CoreDataGenerated/DataModel/MessageEntity+CoreDataProperties.swift",
+      "file": "/Users/repsak/Library/Developer/Xcode/DerivedData/dIM-amawqwgvvqldnxgxvmmfkblltajs/Build/Intermediates.noindex/dIM.build/Debug-iphonesimulator/bluetoothChat.build/DerivedSources/CoreDataGenerated/DataModel/MessageEntity+CoreDataProperties.swift",
       "line": 23,
       "symbol": "MessageEntity.sender",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/repsak/Library/Developer/Xcode/DerivedData/dIM-bqtlbfnqjzpngaftoahiyweammif/Build/Intermediates.noindex/dIM.build/Debug-iphoneos/bluetoothChat.build/DerivedSources/CoreDataGenerated/DataModel/MessageEntity+CoreDataProperties.swift",
+      "file": "/Users/repsak/Library/Developer/Xcode/DerivedData/dIM-amawqwgvvqldnxgxvmmfkblltajs/Build/Intermediates.noindex/dIM.build/Debug-iphonesimulator/bluetoothChat.build/DerivedSources/CoreDataGenerated/DataModel/MessageEntity+CoreDataProperties.swift",
       "line": 24,
       "symbol": "MessageEntity.status",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/repsak/Library/Developer/Xcode/DerivedData/dIM-bqtlbfnqjzpngaftoahiyweammif/Build/Intermediates.noindex/dIM.build/Debug-iphoneos/bluetoothChat.build/DerivedSources/CoreDataGenerated/DataModel/MessageEntity+CoreDataProperties.swift",
+      "file": "/Users/repsak/Library/Developer/Xcode/DerivedData/dIM-amawqwgvvqldnxgxvmmfkblltajs/Build/Intermediates.noindex/dIM.build/Debug-iphonesimulator/bluetoothChat.build/DerivedSources/CoreDataGenerated/DataModel/MessageEntity+CoreDataProperties.swift",
       "line": 25,
       "symbol": "MessageEntity.text",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/repsak/Library/Developer/Xcode/DerivedData/dIM-bqtlbfnqjzpngaftoahiyweammif/Build/Intermediates.noindex/dIM.build/Debug-iphoneos/bluetoothChat.build/DerivedSources/CoreDataGenerated/DataModel/MessageEntity+CoreDataProperties.swift",
+      "file": "/Users/repsak/Library/Developer/Xcode/DerivedData/dIM-amawqwgvvqldnxgxvmmfkblltajs/Build/Intermediates.noindex/dIM.build/Debug-iphonesimulator/bluetoothChat.build/DerivedSources/CoreDataGenerated/DataModel/MessageEntity+CoreDataProperties.swift",
       "line": 26,
       "symbol": "MessageEntity.inConversation",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     }
   ],
-  "source_directory": "/Users/repsak/Desktop/dIM"
+  "source_directory": "/Users/repsak/Desktop/test_dim/dIM"
 }

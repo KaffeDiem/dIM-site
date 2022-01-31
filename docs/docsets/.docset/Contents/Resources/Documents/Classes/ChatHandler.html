@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>ChatBrain Class Reference</title>
+    <title>ChatHandler Class Reference</title>
     <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
     <meta charset='utf-8'>
@@ -13,11 +13,11 @@
     <script src="../js/jazzy.search.js" defer></script>
   </head>
   <body>
-    <a name="//apple_ref/swift/Class/ChatBrain" class="dashAnchor"></a>
-    <a title="ChatBrain Class Reference"></a>
+    <a name="//apple_ref/swift/Class/ChatHandler" class="dashAnchor"></a>
+    <a title="ChatHandler Class Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html"> Docs</a> (82% documented)</p>
+        <p><a href="../index.html"> Docs</a> (80% documented)</p>
         <div class="header-right">
           <form role="search" action="../search.json">
             <input type="text" placeholder="Search documentation" data-typeahead>
@@ -29,7 +29,7 @@
       <p id="breadcrumbs">
         <a href="../index.html"> Reference</a>
         <img id="carat" src="../img/carat.png" alt=""/>
-        ChatBrain Class Reference
+        ChatHandler Class Reference
       </p>
     </div>
     <div class="content-wrapper">
@@ -42,10 +42,10 @@
                 <a href="../Classes/AppDelegate.html">AppDelegate</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/ChatBrain.html">ChatBrain</a>
+                <a href="../Classes/ChatHandler.html">ChatHandler</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/ChatBrain/queuedMessage.html">– queuedMessage</a>
+                <a href="../Classes/ChatHandler/queuedMessage.html">– queuedMessage</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/ConversationEntity.html">ConversationEntity</a>
@@ -89,9 +89,6 @@
           <li class="nav-group-name">
             <a href="../Extensions.html">Extensions</a>
             <ul class="nav-group-tasks">
-              <li class="nav-group-task">
-                <a href="../Extensions/Color.html">Color</a>
-              </li>
               <li class="nav-group-task">
                 <a href="../Extensions/UIApplication.html">UIApplication</a>
               </li>
@@ -164,11 +161,11 @@
       <article class="main-content">
         <section>
           <section class="section">
-            <h1>ChatBrain</h1>
+            <h1>ChatHandler</h1>
               <div class="declaration">
                 <div class="language">
                   
-                  <pre class="highlight swift"><code><span class="kd">class</span> <span class="kt">ChatBrain</span> <span class="p">:</span> <span class="kt">NSObject</span><span class="p">,</span> <span class="kt">ObservableObject</span><span class="p">,</span> <span class="kt">CBCentralManagerDelegate</span><span class="p">,</span> <span class="kt">CBPeripheralManagerDelegate</span><span class="p">,</span> <span class="kt">CBPeripheralDelegate</span></code></pre>
+                  <pre class="highlight swift"><code><span class="kd">class</span> <span class="kt">ChatHandler</span> <span class="p">:</span> <span class="kt">NSObject</span><span class="p">,</span> <span class="kt">ObservableObject</span><span class="p">,</span> <span class="kt">CBCentralManagerDelegate</span><span class="p">,</span> <span class="kt">CBPeripheralManagerDelegate</span><span class="p">,</span> <span class="kt">CBPeripheralDelegate</span></code></pre>
 
                 </div>
               </div>
@@ -196,9 +193,9 @@ is stored in memory and written to the persistent storage as needed.</p>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:13bluetoothChat0B5BrainC7contextSo22NSManagedObjectContextCvp"></a>
+                    <a name="/s:13bluetoothChat0B7HandlerC7contextSo22NSManagedObjectContextCvp"></a>
                     <a name="//apple_ref/swift/Property/context" class="dashAnchor"></a>
-                    <a class="token" href="#/s:13bluetoothChat0B5BrainC7contextSo22NSManagedObjectContextCvp">context</a>
+                    <a class="token" href="#/s:13bluetoothChat0B7HandlerC7contextSo22NSManagedObjectContextCvp">context</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -223,9 +220,9 @@ is stored in memory and written to the persistent storage as needed.</p>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:13bluetoothChat0B5BrainC13routedCounterSivp"></a>
+                    <a name="/s:13bluetoothChat0B7HandlerC13routedCounterSivp"></a>
                     <a name="//apple_ref/swift/Property/routedCounter" class="dashAnchor"></a>
-                    <a class="token" href="#/s:13bluetoothChat0B5BrainC13routedCounterSivp">routedCounter</a>
+                    <a class="token" href="#/s:13bluetoothChat0B7HandlerC13routedCounterSivp">routedCounter</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -252,9 +249,9 @@ It is reset when the app is force-closed or the device is restarted.</p>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:13bluetoothChat0B5BrainC9refreshID10Foundation4UUIDVvp"></a>
+                    <a name="/s:13bluetoothChat0B7HandlerC9refreshID10Foundation4UUIDVvp"></a>
                     <a name="//apple_ref/swift/Property/refreshID" class="dashAnchor"></a>
-                    <a class="token" href="#/s:13bluetoothChat0B5BrainC9refreshID10Foundation4UUIDVvp">refreshID</a>
+                    <a class="token" href="#/s:13bluetoothChat0B7HandlerC9refreshID10Foundation4UUIDVvp">refreshID</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -281,9 +278,9 @@ a refresh of the <code><a href="../Structs/ChatView.html">ChatView</a></code> an
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:13bluetoothChat0B5BrainC12messageQueueSayAC13queuedMessageVGvp"></a>
+                    <a name="/s:13bluetoothChat0B7HandlerC12messageQueueSayAC13queuedMessageVGvp"></a>
                     <a name="//apple_ref/swift/Property/messageQueue" class="dashAnchor"></a>
-                    <a class="token" href="#/s:13bluetoothChat0B5BrainC12messageQueueSayAC13queuedMessageVGvp">messageQueue</a>
+                    <a class="token" href="#/s:13bluetoothChat0B7HandlerC12messageQueueSayAC13queuedMessageVGvp">messageQueue</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -300,7 +297,7 @@ Used for the queue functionality.</p>
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@Published</span>
-<span class="k">var</span> <span class="nv">messageQueue</span><span class="p">:</span> <span class="p">[</span><span class="n"><a href="../Classes/ChatBrain/queuedMessage.html">queuedMessage</a></span><span class="p">]</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+<span class="k">var</span> <span class="nv">messageQueue</span><span class="p">:</span> <span class="p">[</span><span class="n"><a href="../Classes/ChatHandler/queuedMessage.html">queuedMessage</a></span><span class="p">]</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
 
                         </div>
                       </div>
@@ -310,9 +307,9 @@ Used for the queue functionality.</p>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:13bluetoothChat0B5BrainC17discoveredDevicesSayAA6DeviceVGvp"></a>
+                    <a name="/s:13bluetoothChat0B7HandlerC17discoveredDevicesSayAA6DeviceVGvp"></a>
                     <a name="//apple_ref/swift/Property/discoveredDevices" class="dashAnchor"></a>
-                    <a class="token" href="#/s:13bluetoothChat0B5BrainC17discoveredDevicesSayAA6DeviceVGvp">discoveredDevices</a>
+                    <a class="token" href="#/s:13bluetoothChat0B7HandlerC17discoveredDevicesSayAA6DeviceVGvp">discoveredDevices</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -339,9 +336,9 @@ is held then the Bluetooth connection may be dropped.</p>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:13bluetoothChat0B5BrainC23connectedCharateristicsSaySo16CBCharacteristicCGvp"></a>
+                    <a name="/s:13bluetoothChat0B7HandlerC23connectedCharateristicsSaySo16CBCharacteristicCGvp"></a>
                     <a name="//apple_ref/swift/Property/connectedCharateristics" class="dashAnchor"></a>
-                    <a class="token" href="#/s:13bluetoothChat0B5BrainC23connectedCharateristicsSaySo16CBCharacteristicCGvp">connectedCharateristics</a>
+                    <a class="token" href="#/s:13bluetoothChat0B7HandlerC23connectedCharateristicsSaySo16CBCharacteristicCGvp">connectedCharateristics</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -367,9 +364,9 @@ functionality for now.</p>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:13bluetoothChat0B5BrainC14centralManagerSo09CBCentralE0CSgvp"></a>
+                    <a name="/s:13bluetoothChat0B7HandlerC14centralManagerSo09CBCentralE0CSgvp"></a>
                     <a name="//apple_ref/swift/Property/centralManager" class="dashAnchor"></a>
-                    <a class="token" href="#/s:13bluetoothChat0B5BrainC14centralManagerSo09CBCentralE0CSgvp">centralManager</a>
+                    <a class="token" href="#/s:13bluetoothChat0B7HandlerC14centralManagerSo09CBCentralE0CSgvp">centralManager</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -395,9 +392,9 @@ sent by clients to the server.</p>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:13bluetoothChat0B5BrainC17peripheralManagerSo012CBPeripheralE0CSgvp"></a>
+                    <a name="/s:13bluetoothChat0B7HandlerC17peripheralManagerSo012CBPeripheralE0CSgvp"></a>
                     <a name="//apple_ref/swift/Property/peripheralManager" class="dashAnchor"></a>
-                    <a class="token" href="#/s:13bluetoothChat0B5BrainC17peripheralManagerSo012CBPeripheralE0CSgvp">peripheralManager</a>
+                    <a class="token" href="#/s:13bluetoothChat0B7HandlerC17peripheralManagerSo012CBPeripheralE0CSgvp">peripheralManager</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -423,9 +420,9 @@ connections to other BT servers. It also sends messages.</p>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:13bluetoothChat0B5BrainC14characteristicSo23CBMutableCharacteristicCSgvp"></a>
+                    <a name="/s:13bluetoothChat0B7HandlerC14characteristicSo23CBMutableCharacteristicCSgvp"></a>
                     <a name="//apple_ref/swift/Property/characteristic" class="dashAnchor"></a>
-                    <a class="token" href="#/s:13bluetoothChat0B5BrainC14characteristicSo23CBMutableCharacteristicCSgvp">characteristic</a>
+                    <a class="token" href="#/s:13bluetoothChat0B7HandlerC14characteristicSo23CBMutableCharacteristicCSgvp">characteristic</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -451,9 +448,9 @@ Bluetooth API.</p>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:13bluetoothChat0B5BrainC12seenMessagesSays5Int32VGvp"></a>
+                    <a name="/s:13bluetoothChat0B7HandlerC12seenMessagesSays5Int32VGvp"></a>
                     <a name="//apple_ref/swift/Property/seenMessages" class="dashAnchor"></a>
-                    <a class="token" href="#/s:13bluetoothChat0B5BrainC12seenMessagesSays5Int32VGvp">seenMessages</a>
+                    <a class="token" href="#/s:13bluetoothChat0B7HandlerC12seenMessagesSays5Int32VGvp">seenMessages</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -479,9 +476,9 @@ This prevents looping them in the network for ages.</p>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:13bluetoothChat0B5BrainC18peripheralMessagesSDySSSay10Foundation4DateVGGvp"></a>
+                    <a name="/s:13bluetoothChat0B7HandlerC18peripheralMessagesSDySSSay10Foundation4DateVGGvp"></a>
                     <a name="//apple_ref/swift/Property/peripheralMessages" class="dashAnchor"></a>
-                    <a class="token" href="#/s:13bluetoothChat0B5BrainC18peripheralMessagesSDySSSay10Foundation4DateVGGvp">peripheralMessages</a>
+                    <a class="token" href="#/s:13bluetoothChat0B7HandlerC18peripheralMessagesSDySSSay10Foundation4DateVGGvp">peripheralMessages</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -507,9 +504,9 @@ It is cleaned from time to time as well.</p>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:13bluetoothChat0B5BrainC17senderOfMessageIDSDys5Int32VSSGvp"></a>
+                    <a name="/s:13bluetoothChat0B7HandlerC17senderOfMessageIDSDys5Int32VSSGvp"></a>
                     <a name="//apple_ref/swift/Property/senderOfMessageID" class="dashAnchor"></a>
-                    <a class="token" href="#/s:13bluetoothChat0B5BrainC17senderOfMessageIDSDys5Int32VSSGvp">senderOfMessageID</a>
+                    <a class="token" href="#/s:13bluetoothChat0B7HandlerC17senderOfMessageIDSDys5Int32VSSGvp">senderOfMessageID</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -535,9 +532,9 @@ of said messages. This is used for DSR.</p>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:13bluetoothChat0B5BrainC13seenCBCentralSaySo0E0CGvp"></a>
+                    <a name="/s:13bluetoothChat0B7HandlerC13seenCBCentralSaySo0E0CGvp"></a>
                     <a name="//apple_ref/swift/Property/seenCBCentral" class="dashAnchor"></a>
-                    <a class="token" href="#/s:13bluetoothChat0B5BrainC13seenCBCentralSaySo0E0CGvp">seenCBCentral</a>
+                    <a class="token" href="#/s:13bluetoothChat0B7HandlerC13seenCBCentralSaySo0E0CGvp">seenCBCentral</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -562,9 +559,9 @@ of said messages. This is used for DSR.</p>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:13bluetoothChat0B5BrainC7contextACSo22NSManagedObjectContextC_tcfc"></a>
+                    <a name="/s:13bluetoothChat0B7HandlerC7contextACSo22NSManagedObjectContextC_tcfc"></a>
                     <a name="//apple_ref/swift/Method/init(context:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:13bluetoothChat0B5BrainC7contextACSo22NSManagedObjectContextC_tcfc">init(context:<wbr>)</a>
+                    <a class="token" href="#/s:13bluetoothChat0B7HandlerC7contextACSo22NSManagedObjectContextC_tcfc">init(context:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -573,7 +570,7 @@ of said messages. This is used for DSR.</p>
                       <div class="pointer"></div>
                       <div class="abstract">
                         <p>The initialiser for the ChatBrain.
-Sets up the <code><a href="../Classes/ChatBrain.html#/s:13bluetoothChat0B5BrainC14centralManagerSo09CBCentralE0CSgvp">centralManager</a></code> and the <code><a href="../Classes/ChatBrain.html#/s:13bluetoothChat0B5BrainC17peripheralManagerSo012CBPeripheralE0CSgvp">peripheralManager</a></code>.</p>
+Sets up the <code><a href="../Classes/ChatHandler.html#/s:13bluetoothChat0B7HandlerC14centralManagerSo09CBCentralE0CSgvp">centralManager</a></code> and the <code><a href="../Classes/ChatHandler.html#/s:13bluetoothChat0B7HandlerC17peripheralManagerSo012CBPeripheralE0CSgvp">peripheralManager</a></code>.</p>
 
                       </div>
                       <div class="declaration">
@@ -609,9 +606,9 @@ Sets up the <code><a href="../Classes/ChatBrain.html#/s:13bluetoothChat0B5BrainC
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:13bluetoothChat0B5BrainC17cleanUpPeripheralyySo12CBPeripheralCF"></a>
+                    <a name="/s:13bluetoothChat0B7HandlerC17cleanUpPeripheralyySo12CBPeripheralCF"></a>
                     <a name="//apple_ref/swift/Method/cleanUpPeripheral(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:13bluetoothChat0B5BrainC17cleanUpPeripheralyySo12CBPeripheralCF">cleanUpPeripheral(_:<wbr>)</a>
+                    <a class="token" href="#/s:13bluetoothChat0B7HandlerC17cleanUpPeripheralyySo12CBPeripheralCF">cleanUpPeripheral(_:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -652,6 +649,33 @@ Sets up the <code><a href="../Classes/ChatBrain.html#/s:13bluetoothChat0B5BrainC
                     </section>
                   </div>
                 </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13bluetoothChat0B7HandlerC10handleScan6resultySS_tF"></a>
+                    <a name="//apple_ref/swift/Method/handleScan(result:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13bluetoothChat0B7HandlerC10handleScan6resultySS_tF">handleScan(result:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">handleScan</span><span class="p">(</span><span class="nv">result</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
               </ul>
             </div>
             <div class="task-group">
@@ -668,9 +692,9 @@ Sets up the <code><a href="../Classes/ChatBrain.html#/s:13bluetoothChat0B5BrainC
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@CM@bluetoothChat@objc(cs)ChatBrain(im)centralManagerDidUpdateState:"></a>
+                    <a name="/c:@CM@bluetoothChat@objc(cs)ChatHandler(im)centralManagerDidUpdateState:"></a>
                     <a name="//apple_ref/swift/Method/centralManagerDidUpdateState(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@CM@bluetoothChat@objc(cs)ChatBrain(im)centralManagerDidUpdateState:">centralManagerDidUpdateState(_:<wbr>)</a>
+                    <a class="token" href="#/c:@CM@bluetoothChat@objc(cs)ChatHandler(im)centralManagerDidUpdateState:">centralManagerDidUpdateState(_:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -722,9 +746,9 @@ for peripherals.</p>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@CM@bluetoothChat@objc(cs)ChatBrain(im)centralManager:didDiscoverPeripheral:advertisementData:RSSI:"></a>
+                    <a name="/c:@CM@bluetoothChat@objc(cs)ChatHandler(im)centralManager:didDiscoverPeripheral:advertisementData:RSSI:"></a>
                     <a name="//apple_ref/swift/Method/centralManager(_:didDiscover:advertisementData:rssi:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@CM@bluetoothChat@objc(cs)ChatBrain(im)centralManager:didDiscoverPeripheral:advertisementData:RSSI:">centralManager(_:<wbr>didDiscover:<wbr>advertisementData:<wbr>rssi:<wbr>)</a>
+                    <a class="token" href="#/c:@CM@bluetoothChat@objc(cs)ChatHandler(im)centralManager:didDiscoverPeripheral:advertisementData:RSSI:">centralManager(_:<wbr>didDiscover:<wbr>advertisementData:<wbr>rssi:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -812,9 +836,9 @@ to broadcast messages for us.</p>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@CM@bluetoothChat@objc(cs)ChatBrain(im)centralManager:didConnectPeripheral:"></a>
+                    <a name="/c:@CM@bluetoothChat@objc(cs)ChatHandler(im)centralManager:didConnectPeripheral:"></a>
                     <a name="//apple_ref/swift/Method/centralManager(_:didConnect:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@CM@bluetoothChat@objc(cs)ChatBrain(im)centralManager:didConnectPeripheral:">centralManager(_:<wbr>didConnect:<wbr>)</a>
+                    <a class="token" href="#/c:@CM@bluetoothChat@objc(cs)ChatHandler(im)centralManager:didConnectPeripheral:">centralManager(_:<wbr>didConnect:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -873,9 +897,9 @@ supports the dIM identifier. Otherwise it could be all other Bluetooth devices.<
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@CM@bluetoothChat@objc(cs)ChatBrain(im)centralManager:didFailToConnectPeripheral:error:"></a>
+                    <a name="/c:@CM@bluetoothChat@objc(cs)ChatHandler(im)centralManager:didFailToConnectPeripheral:error:"></a>
                     <a name="//apple_ref/swift/Method/centralManager(_:didFailToConnect:error:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@CM@bluetoothChat@objc(cs)ChatBrain(im)centralManager:didFailToConnectPeripheral:error:">centralManager(_:<wbr>didFailToConnect:<wbr>error:<wbr>)</a>
+                    <a class="token" href="#/c:@CM@bluetoothChat@objc(cs)ChatHandler(im)centralManager:didFailToConnectPeripheral:error:">centralManager(_:<wbr>didFailToConnect:<wbr>error:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -948,9 +972,9 @@ supports the dIM identifier. Otherwise it could be all other Bluetooth devices.<
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@CM@bluetoothChat@objc(cs)ChatBrain(im)centralManager:didDisconnectPeripheral:error:"></a>
+                    <a name="/c:@CM@bluetoothChat@objc(cs)ChatHandler(im)centralManager:didDisconnectPeripheral:error:"></a>
                     <a name="//apple_ref/swift/Method/centralManager(_:didDisconnectPeripheral:error:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@CM@bluetoothChat@objc(cs)ChatBrain(im)centralManager:didDisconnectPeripheral:error:">centralManager(_:<wbr>didDisconnectPeripheral:<wbr>error:<wbr>)</a>
+                    <a class="token" href="#/c:@CM@bluetoothChat@objc(cs)ChatHandler(im)centralManager:didDisconnectPeripheral:error:">centralManager(_:<wbr>didDisconnectPeripheral:<wbr>error:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -1025,9 +1049,9 @@ supports the dIM identifier. Otherwise it could be all other Bluetooth devices.<
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@CM@bluetoothChat@objc(cs)ChatBrain(im)peripheral:didReadRSSI:error:"></a>
+                    <a name="/c:@CM@bluetoothChat@objc(cs)ChatHandler(im)peripheral:didReadRSSI:error:"></a>
                     <a name="//apple_ref/swift/Method/peripheral(_:didReadRSSI:error:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@CM@bluetoothChat@objc(cs)ChatBrain(im)peripheral:didReadRSSI:error:">peripheral(_:<wbr>didReadRSSI:<wbr>error:<wbr>)</a>
+                    <a class="token" href="#/c:@CM@bluetoothChat@objc(cs)ChatHandler(im)peripheral:didReadRSSI:error:">peripheral(_:<wbr>didReadRSSI:<wbr>error:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -1100,9 +1124,9 @@ supports the dIM identifier. Otherwise it could be all other Bluetooth devices.<
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@CM@bluetoothChat@objc(cs)ChatBrain(im)peripheral:didDiscoverServices:"></a>
+                    <a name="/c:@CM@bluetoothChat@objc(cs)ChatHandler(im)peripheral:didDiscoverServices:"></a>
                     <a name="//apple_ref/swift/Method/peripheral(_:didDiscoverServices:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@CM@bluetoothChat@objc(cs)ChatBrain(im)peripheral:didDiscoverServices:">peripheral(_:<wbr>didDiscoverServices:<wbr>)</a>
+                    <a class="token" href="#/c:@CM@bluetoothChat@objc(cs)ChatHandler(im)peripheral:didDiscoverServices:">peripheral(_:<wbr>didDiscoverServices:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -1161,9 +1185,9 @@ chat functionality.</p>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@CM@bluetoothChat@objc(cs)ChatBrain(im)peripheral:didDiscoverCharacteristicsForService:error:"></a>
+                    <a name="/c:@CM@bluetoothChat@objc(cs)ChatHandler(im)peripheral:didDiscoverCharacteristicsForService:error:"></a>
                     <a name="//apple_ref/swift/Method/peripheral(_:didDiscoverCharacteristicsFor:error:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@CM@bluetoothChat@objc(cs)ChatBrain(im)peripheral:didDiscoverCharacteristicsForService:error:">peripheral(_:<wbr>didDiscoverCharacteristicsFor:<wbr>error:<wbr>)</a>
+                    <a class="token" href="#/c:@CM@bluetoothChat@objc(cs)ChatHandler(im)peripheral:didDiscoverCharacteristicsForService:error:">peripheral(_:<wbr>didDiscoverCharacteristicsFor:<wbr>error:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -1236,9 +1260,9 @@ chat functionality.</p>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@CM@bluetoothChat@objc(cs)ChatBrain(im)peripheral:didUpdateNotificationStateForCharacteristic:error:"></a>
+                    <a name="/c:@CM@bluetoothChat@objc(cs)ChatHandler(im)peripheral:didUpdateNotificationStateForCharacteristic:error:"></a>
                     <a name="//apple_ref/swift/Method/peripheral(_:didUpdateNotificationStateFor:error:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@CM@bluetoothChat@objc(cs)ChatBrain(im)peripheral:didUpdateNotificationStateForCharacteristic:error:">peripheral(_:<wbr>didUpdateNotificationStateFor:<wbr>error:<wbr>)</a>
+                    <a class="token" href="#/c:@CM@bluetoothChat@objc(cs)ChatHandler(im)peripheral:didUpdateNotificationStateForCharacteristic:error:">peripheral(_:<wbr>didUpdateNotificationStateFor:<wbr>error:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -1308,9 +1332,9 @@ chat functionality.</p>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@CM@bluetoothChat@objc(cs)ChatBrain(im)peripheral:didUpdateValueForCharacteristic:error:"></a>
+                    <a name="/c:@CM@bluetoothChat@objc(cs)ChatHandler(im)peripheral:didUpdateValueForCharacteristic:error:"></a>
                     <a name="//apple_ref/swift/Method/peripheral(_:didUpdateValueFor:error:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@CM@bluetoothChat@objc(cs)ChatBrain(im)peripheral:didUpdateValueForCharacteristic:error:">peripheral(_:<wbr>didUpdateValueFor:<wbr>error:<wbr>)</a>
+                    <a class="token" href="#/c:@CM@bluetoothChat@objc(cs)ChatHandler(im)peripheral:didUpdateValueForCharacteristic:error:">peripheral(_:<wbr>didUpdateValueFor:<wbr>error:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -1383,9 +1407,9 @@ and that we are not getting DOS attacked.</p>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@CM@bluetoothChat@objc(cs)ChatBrain(im)peripheral:didModifyServices:"></a>
+                    <a name="/c:@CM@bluetoothChat@objc(cs)ChatHandler(im)peripheral:didModifyServices:"></a>
                     <a name="//apple_ref/swift/Method/peripheral(_:didModifyServices:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@CM@bluetoothChat@objc(cs)ChatBrain(im)peripheral:didModifyServices:">peripheral(_:<wbr>didModifyServices:<wbr>)</a>
+                    <a class="token" href="#/c:@CM@bluetoothChat@objc(cs)ChatHandler(im)peripheral:didModifyServices:">peripheral(_:<wbr>didModifyServices:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -1455,9 +1479,9 @@ and we therefore drop our connection to it.</p>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:13bluetoothChat0B5BrainC16startAdvertising17peripheralManagerySo012CBPeripheralG0C_tF"></a>
+                    <a name="/s:13bluetoothChat0B7HandlerC16startAdvertising17peripheralManagerySo012CBPeripheralG0C_tF"></a>
                     <a name="//apple_ref/swift/Method/startAdvertising(peripheralManager:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:13bluetoothChat0B5BrainC16startAdvertising17peripheralManagerySo012CBPeripheralG0C_tF">startAdvertising(peripheralManager:<wbr>)</a>
+                    <a class="token" href="#/s:13bluetoothChat0B7HandlerC16startAdvertising17peripheralManagerySo012CBPeripheralG0C_tF">startAdvertising(peripheralManager:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -1509,9 +1533,9 @@ This is a callback function and called automatically.</p>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@CM@bluetoothChat@objc(cs)ChatBrain(im)peripheralManagerDidUpdateState:"></a>
+                    <a name="/c:@CM@bluetoothChat@objc(cs)ChatHandler(im)peripheralManagerDidUpdateState:"></a>
                     <a name="//apple_ref/swift/Method/peripheralManagerDidUpdateState(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@CM@bluetoothChat@objc(cs)ChatBrain(im)peripheralManagerDidUpdateState:">peripheralManagerDidUpdateState(_:<wbr>)</a>
+                    <a class="token" href="#/c:@CM@bluetoothChat@objc(cs)ChatHandler(im)peripheralManagerDidUpdateState:">peripheralManagerDidUpdateState(_:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -1562,9 +1586,9 @@ to it as a characteristic.</p>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@CM@bluetoothChat@objc(cs)ChatBrain(im)peripheralManager:central:didSubscribeToCharacteristic:"></a>
+                    <a name="/c:@CM@bluetoothChat@objc(cs)ChatHandler(im)peripheralManager:central:didSubscribeToCharacteristic:"></a>
                     <a name="//apple_ref/swift/Method/peripheralManager(_:central:didSubscribeTo:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@CM@bluetoothChat@objc(cs)ChatBrain(im)peripheralManager:central:didSubscribeToCharacteristic:">peripheralManager(_:<wbr>central:<wbr>didSubscribeTo:<wbr>)</a>
+                    <a class="token" href="#/c:@CM@bluetoothChat@objc(cs)ChatHandler(im)peripheralManager:central:didSubscribeToCharacteristic:">peripheralManager(_:<wbr>central:<wbr>didSubscribeTo:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -1633,9 +1657,9 @@ This means that we have someone to send messages to other than ourselves.</p>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@CM@bluetoothChat@objc(cs)ChatBrain(im)peripheralManager:central:didUnsubscribeFromCharacteristic:"></a>
+                    <a name="/c:@CM@bluetoothChat@objc(cs)ChatHandler(im)peripheralManager:central:didUnsubscribeFromCharacteristic:"></a>
                     <a name="//apple_ref/swift/Method/peripheralManager(_:central:didUnsubscribeFrom:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@CM@bluetoothChat@objc(cs)ChatBrain(im)peripheralManager:central:didUnsubscribeFromCharacteristic:">peripheralManager(_:<wbr>central:<wbr>didUnsubscribeFrom:<wbr>)</a>
+                    <a class="token" href="#/c:@CM@bluetoothChat@objc(cs)ChatHandler(im)peripheralManager:central:didUnsubscribeFromCharacteristic:">peripheralManager(_:<wbr>central:<wbr>didUnsubscribeFrom:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -1719,9 +1743,9 @@ future.</p>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:13bluetoothChat0B5BrainC20addMessageToDSRTable9messageID0aI0ys5Int32V_SStF"></a>
+                    <a name="/s:13bluetoothChat0B7HandlerC20addMessageToDSRTable9messageID0aI0ys5Int32V_SStF"></a>
                     <a name="//apple_ref/swift/Method/addMessageToDSRTable(messageID:bluetoothID:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:13bluetoothChat0B5BrainC20addMessageToDSRTable9messageID0aI0ys5Int32V_SStF">addMessageToDSRTable(messageID:<wbr>bluetoothID:<wbr>)</a>
+                    <a class="token" href="#/s:13bluetoothChat0B7HandlerC20addMessageToDSRTable9messageID0aI0ys5Int32V_SStF">addMessageToDSRTable(messageID:<wbr>bluetoothID:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -1780,9 +1804,9 @@ to send back <code>ACK</code> messages the shortest route possible.</p>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:13bluetoothChat0B5BrainC22checkMessageSeenBefore9messageIDSbs5Int32V_tF"></a>
+                    <a name="/s:13bluetoothChat0B7HandlerC22checkMessageSeenBefore9messageIDSbs5Int32V_tF"></a>
                     <a name="//apple_ref/swift/Method/checkMessageSeenBefore(messageID:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:13bluetoothChat0B5BrainC22checkMessageSeenBefore9messageIDSbs5Int32V_tF">checkMessageSeenBefore(messageID:<wbr>)</a>
+                    <a class="token" href="#/s:13bluetoothChat0B7HandlerC22checkMessageSeenBefore9messageIDSbs5Int32V_tF">checkMessageSeenBefore(messageID:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -1831,9 +1855,9 @@ flood the network.</p>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:13bluetoothChat0B5BrainC18getSenderOfMessage9messageIDSSs5Int32V_tF"></a>
+                    <a name="/s:13bluetoothChat0B7HandlerC18getSenderOfMessage9messageIDSSs5Int32V_tF"></a>
                     <a name="//apple_ref/swift/Method/getSenderOfMessage(messageID:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:13bluetoothChat0B5BrainC18getSenderOfMessage9messageIDSSs5Int32V_tF">getSenderOfMessage(messageID:<wbr>)</a>
+                    <a class="token" href="#/s:13bluetoothChat0B7HandlerC18getSenderOfMessage9messageIDSSs5Int32V_tF">getSenderOfMessage(messageID:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -1894,9 +1918,9 @@ flood the network.</p>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:13bluetoothChat0B5BrainC13queuedMessageV"></a>
+                    <a name="/s:13bluetoothChat0B7HandlerC13queuedMessageV"></a>
                     <a name="//apple_ref/swift/Struct/queuedMessage" class="dashAnchor"></a>
-                    <a class="token" href="#/s:13bluetoothChat0B5BrainC13queuedMessageV">queuedMessage</a>
+                    <a class="token" href="#/s:13bluetoothChat0B7HandlerC13queuedMessageV">queuedMessage</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -1906,7 +1930,7 @@ flood the network.</p>
                       <div class="abstract">
                         <p>A message stored together with a date for queue.</p>
 
-                        <a href="../Classes/ChatBrain/queuedMessage.html" class="slightly-smaller">See more</a>
+                        <a href="../Classes/ChatHandler/queuedMessage.html" class="slightly-smaller">See more</a>
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
@@ -1922,9 +1946,9 @@ flood the network.</p>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:13bluetoothChat0B5BrainC15messageQueueAddyyAA7MessageVF"></a>
+                    <a name="/s:13bluetoothChat0B7HandlerC15messageQueueAddyyAA7MessageVF"></a>
                     <a name="//apple_ref/swift/Method/messageQueueAdd(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:13bluetoothChat0B5BrainC15messageQueueAddyyAA7MessageVF">messageQueueAdd(_:<wbr>)</a>
+                    <a class="token" href="#/s:13bluetoothChat0B7HandlerC15messageQueueAddyyAA7MessageVF">messageQueueAdd(_:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -1970,9 +1994,9 @@ flood the network.</p>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:13bluetoothChat0B5BrainC17checkMessageQueueyyF"></a>
+                    <a name="/s:13bluetoothChat0B7HandlerC17checkMessageQueueyyF"></a>
                     <a name="//apple_ref/swift/Method/checkMessageQueue()" class="dashAnchor"></a>
-                    <a class="token" href="#/s:13bluetoothChat0B5BrainC17checkMessageQueueyyF">checkMessageQueue()</a>
+                    <a class="token" href="#/s:13bluetoothChat0B7HandlerC17checkMessageQueueyyF">checkMessageQueue()</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -1998,9 +2022,9 @@ we do not deliver messages older than a set amount.</p>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:13bluetoothChat0B5BrainC25messageQueueNewConnectionyySo9CBCentralCF"></a>
+                    <a name="/s:13bluetoothChat0B7HandlerC25messageQueueNewConnectionyySo9CBCentralCF"></a>
                     <a name="//apple_ref/swift/Method/messageQueueNewConnection(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:13bluetoothChat0B5BrainC25messageQueueNewConnectionyySo9CBCentralCF">messageQueueNewConnection(_:<wbr>)</a>
+                    <a class="token" href="#/s:13bluetoothChat0B7HandlerC25messageQueueNewConnectionyySo9CBCentralCF">messageQueueNewConnection(_:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -2059,9 +2083,9 @@ such that no old messages are sent.</p>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:13bluetoothChat0B5BrainC12relayMessageyyAA0E0VF"></a>
+                    <a name="/s:13bluetoothChat0B7HandlerC12relayMessageyyAA0E0VF"></a>
                     <a name="//apple_ref/swift/Method/relayMessage(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:13bluetoothChat0B5BrainC12relayMessageyyAA0E0VF">relayMessage(_:<wbr>)</a>
+                    <a class="token" href="#/s:13bluetoothChat0B7HandlerC12relayMessageyyAA0E0VF">relayMessage(_:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -2108,9 +2132,9 @@ connected servers (central managers).</p>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:13bluetoothChat0B5BrainC12relayMessageyyAA0E0V_SStF"></a>
+                    <a name="/s:13bluetoothChat0B7HandlerC12relayMessageyyAA0E0V_SStF"></a>
                     <a name="//apple_ref/swift/Method/relayMessage(_:_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:13bluetoothChat0B5BrainC12relayMessageyyAA0E0V_SStF">relayMessage(_:<wbr>_:<wbr>)</a>
+                    <a class="token" href="#/s:13bluetoothChat0B7HandlerC12relayMessageyyAA0E0V_SStF">relayMessage(_:<wbr>_:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -2185,9 +2209,9 @@ Therefore we require a specific Bluetooth ID to send the send the message to.</p
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:13bluetoothChat0B5BrainC15retrieveMessageyyAA0E0VF"></a>
+                    <a name="/s:13bluetoothChat0B7HandlerC15retrieveMessageyyAA0E0VF"></a>
                     <a name="//apple_ref/swift/Method/retrieveMessage(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:13bluetoothChat0B5BrainC15retrieveMessageyyAA0E0VF">retrieveMessage(_:<wbr>)</a>
+                    <a class="token" href="#/s:13bluetoothChat0B7HandlerC15retrieveMessageyyAA0E0VF">retrieveMessage(_:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -2236,9 +2260,9 @@ to confirm that we have received it.</p>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:13bluetoothChat0B5BrainC12receivedRead7message12conversationSbAA7MessageV_AA18ConversationEntityCtF"></a>
+                    <a name="/s:13bluetoothChat0B7HandlerC12receivedRead7message12conversationSbAA7MessageV_AA18ConversationEntityCtF"></a>
                     <a name="//apple_ref/swift/Method/receivedRead(message:conversation:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:13bluetoothChat0B5BrainC12receivedRead7message12conversationSbAA7MessageV_AA18ConversationEntityCtF">receivedRead(message:<wbr>conversation:<wbr>)</a>
+                    <a class="token" href="#/s:13bluetoothChat0B7HandlerC12receivedRead7message12conversationSbAA7MessageV_AA18ConversationEntityCtF">receivedRead(message:<wbr>conversation:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -2301,9 +2325,9 @@ that type of messages correctly.</p>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:13bluetoothChat0B5BrainC11receivedAck7message12conversationSbAA7MessageV_AA18ConversationEntityCtF"></a>
+                    <a name="/s:13bluetoothChat0B7HandlerC11receivedAck7message12conversationSbAA7MessageV_AA18ConversationEntityCtF"></a>
                     <a name="//apple_ref/swift/Method/receivedAck(message:conversation:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:13bluetoothChat0B5BrainC11receivedAck7message12conversationSbAA7MessageV_AA18ConversationEntityCtF">receivedAck(message:<wbr>conversation:<wbr>)</a>
+                    <a class="token" href="#/s:13bluetoothChat0B7HandlerC11receivedAck7message12conversationSbAA7MessageV_AA18ConversationEntityCtF">receivedAck(message:<wbr>conversation:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -2377,9 +2401,9 @@ formatted and updates the conversation.</p>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:13bluetoothChat0B5BrainC31decryptRetrievedMessageToString7message12conversationSSSgAA0F0V_AA18ConversationEntityCtF"></a>
+                    <a name="/s:13bluetoothChat0B7HandlerC31decryptRetrievedMessageToString7message12conversationSSSgAA0F0V_AA18ConversationEntityCtF"></a>
                     <a name="//apple_ref/swift/Method/decryptRetrievedMessageToString(message:conversation:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:13bluetoothChat0B5BrainC31decryptRetrievedMessageToString7message12conversationSSSgAA0F0V_AA18ConversationEntityCtF">decryptRetrievedMessageToString(message:<wbr>conversation:<wbr>)</a>
+                    <a class="token" href="#/s:13bluetoothChat0B7HandlerC31decryptRetrievedMessageToString7message12conversationSSSgAA0F0V_AA18ConversationEntityCtF">decryptRetrievedMessageToString(message:<wbr>conversation:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -2436,52 +2460,6 @@ formatted and updates the conversation.</p>
                     </section>
                   </div>
                 </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:13bluetoothChat0B5BrainC16sendNotification4whatyAA13MessageEntityC_tF"></a>
-                    <a name="//apple_ref/swift/Method/sendNotification(what:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:13bluetoothChat0B5BrainC16sendNotification4whatyAA13MessageEntityC_tF">sendNotification(what:<wbr>)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Send a notification to the user if the app is closed and and we retrieve a message.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">sendNotification</span><span class="p">(</span><span class="n">what</span> <span class="nv">message</span><span class="p">:</span> <span class="kt"><a href="../Classes/MessageEntity.html">MessageEntity</a></span><span class="p">)</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div>
-                        <h4>Parameters</h4>
-                        <table class="graybox">
-                          <tbody>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>message</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>The message that the user has received.</p>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                    </section>
-                  </div>
-                </li>
               </ul>
             </div>
             <div class="task-group">
@@ -2498,9 +2476,9 @@ formatted and updates the conversation.</p>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:13bluetoothChat0B5BrainC11sendMessage3for4text7contextyAA18ConversationEntityC_SSSo22NSManagedObjectContextCtF"></a>
+                    <a name="/s:13bluetoothChat0B7HandlerC11sendMessage3for4text7contextyAA18ConversationEntityC_SSSo22NSManagedObjectContextCtF"></a>
                     <a name="//apple_ref/swift/Method/sendMessage(for:text:context:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:13bluetoothChat0B5BrainC11sendMessage3for4text7contextyAA18ConversationEntityC_SSSo22NSManagedObjectContextCtF">sendMessage(for:<wbr>text:<wbr>context:<wbr>)</a>
+                    <a class="token" href="#/s:13bluetoothChat0B7HandlerC11sendMessage3for4text7contextyAA18ConversationEntityC_SSSo22NSManagedObjectContextCtF">sendMessage(for:<wbr>text:<wbr>context:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -2572,9 +2550,9 @@ central managers.</p>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:13bluetoothChat0B5BrainC15sendReadMessageyyAA18ConversationEntityCF"></a>
+                    <a name="/s:13bluetoothChat0B7HandlerC15sendReadMessageyyAA18ConversationEntityCF"></a>
                     <a name="//apple_ref/swift/Method/sendReadMessage(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:13bluetoothChat0B5BrainC15sendReadMessageyyAA18ConversationEntityCF">sendReadMessage(_:<wbr>)</a>
+                    <a class="token" href="#/s:13bluetoothChat0B7HandlerC15sendReadMessageyyAA18ConversationEntityCF">sendReadMessage(_:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -2625,9 +2603,9 @@ formatted as <code>READ/id1/id2/id2...</code>.</p>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:13bluetoothChat0B5BrainC14sendAckMessageyyAA0F6EntityCF"></a>
+                    <a name="/s:13bluetoothChat0B7HandlerC14sendAckMessageyyAA0F6EntityCF"></a>
                     <a name="//apple_ref/swift/Method/sendAckMessage(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:13bluetoothChat0B5BrainC14sendAckMessageyyAA0F6EntityCF">sendAckMessage(_:<wbr>)</a>
+                    <a class="token" href="#/s:13bluetoothChat0B7HandlerC14sendAckMessageyyAA0F6EntityCF">sendAckMessage(_:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -2675,7 +2653,7 @@ shortest route possible.</p>
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2021 <a class="link" href="" target="_blank" rel="external noopener"></a>. All rights reserved. (Last updated: 2021-12-20)</p>
+          <p>&copy; 2022 <a class="link" href="" target="_blank" rel="external noopener"></a>. All rights reserved. (Last updated: 2022-01-31)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.1</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
         </section>
       </article>
